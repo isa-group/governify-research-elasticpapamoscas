@@ -1,0 +1,56 @@
+{
+   "PapamoscasElastic": {
+      "error": {
+         "average": 0.037377450980392156,
+         "devtp": 0.01897650893066725
+      },
+      "t1": {
+         "average": 97.00987035327417,
+         "devtp": 1.3272134594352754
+      },
+      "t2": {
+         "average": 97.04614555154733,
+         "devtp": 1.144270387712292
+      },
+      "cost": {
+         "average": 0.00021927408185269516,
+         "devtp": 0.0000017216162205164795
+      }
+   },
+   "PapamoscasElasticOnlyOneLevel": {
+      "error": {
+         "average": 0.05974443906341106,
+         "devtp": 0.04391796843987601
+      },
+      "t1": {
+         "average": 96.35755973837894,
+         "devtp": 2.201475100002918
+      },
+      "t2": {
+         "average": 96.59568291305811,
+         "devtp": 2.0395654921621604
+      },
+      "cost": {
+         "average": 0.00014155659745290132,
+         "devtp": 0.0000021423882543814892
+      }
+   },
+   "PapamoscasElasticOnlyOneLevelPreProvisioned": {
+      "error": {
+         "average": 0,
+         "devtp": 0
+      },
+      "t1": {
+         "average": 100,
+         "devtp": 0
+      },
+      "t2": {
+         "average": 99.99274697242197,
+         "devtp": 0.010257329969124115
+      },
+      "cost": {
+         "average": 0.0002699999999999982,
+         "devtp": 0
+      }
+   }
+}

@@ -1,0 +1,207 @@
+02:30:24  ====== [T02.01.00-2_8_8_3_7_6_5-90-PapamoscasElastic-760] ======
+02:30:24     Updating config.json with PapamoscasElastic.
+02:30:25     Restarting..........
+02:32:39         UNDEPLOYED...
+02:33:10         ALLOCATING.............
+02:35:24         CONFIGURING...
+02:35:55         DEPLOYED.
+02:36:05     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+02:36:05     Start Monitor...OK
+02:36:05     Monitoring...OK
+02:36:06     Executing test...OK
+02:46:41     Stoping monitor...OK
+02:46:41     Getting test data...OK
+02:46:41     Getting test stats...OK
+02:46:41     Shutdown monitor...OK
+02:46:41     Getting Availability...OK
+02:46:42     Cleaning datastore...OK
+02:46:42     Getting summary...OK
+Finish test: T02.01.00-2_8_8_3_7_6_5-90-PapamoscasElastic-760
+02:46:43  ====== [T02.01.01-2_8_8_3_7_6_5-90-PapamoscasElastic-760] ======
+02:46:43     Updating config.json with PapamoscasElastic.
+02:46:43     Restarting........
+02:48:42         UNDEPLOYED......................................................
+02:58:00         ALLOCATING..............
+03:00:26         CONFIGURING.r
+03:00:42         ........
+03:02:31         UNDEPLOYED.............
+03:04:45         ALLOCATING..............
+03:07:10         CONFIGURING...
+03:07:40         DEPLOYED.
+03:07:50     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+03:07:51     Start Monitor...OK
+03:07:51     Monitoring...OK
+03:07:51     Executing test...OK
+03:18:25     Stoping monitor...OK
+03:18:25     Getting test data...OK
+03:18:25     Getting test stats...OK
+03:18:25     Shutdown monitor...OK
+03:18:25     Getting Availability...OK
+03:18:26     Cleaning datastore...OK
+03:18:26     Getting summary...OK
+Finish test: T02.01.01-2_8_8_3_7_6_5-90-PapamoscasElastic-760
+03:18:26  ====== [T02.01.02-2_8_8_3_7_6_5-90-PapamoscasElastic-760] ======
+03:18:26     Updating config.json with PapamoscasElastic.
+03:18:27     Restarting..........
+03:20:38         UNDEPLOYED.......
+03:21:51         ALLOCATING............................................................r
+03:32:17         ........
+03:34:04         UNDEPLOYED.........
+03:35:37         ALLOCATING...........................................................r
+03:45:53         ........
+03:47:40         UNDEPLOYED...........
+03:49:33         ALLOCATING.............
+03:51:47         CONFIGURING...
+03:52:18         DEPLOYED.
+03:52:28     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+03:52:29     Start Monitor...OK
+03:52:29     Monitoring...OK
+03:52:29     Executing test...OK
+04:03:03     Stoping monitor...OK
+04:03:03     Getting test data...OK
+04:03:03     Getting test stats...OK
+04:03:03     Shutdown monitor...OK
+04:03:03     Getting Availability...OK
+04:03:04     Cleaning datastore...OK
+04:03:04     Getting summary...OK
+Finish test: T02.01.02-2_8_8_3_7_6_5-90-PapamoscasElastic-760
+04:03:05  ====== [T02.01.00-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevel-760] ======
+04:03:05     Updating config.json with PapamoscasElasticOnlyOneLevel.
+04:03:05     Restarting.........
+04:05:13         UNDEPLOYED........................
+04:09:21         ALLOCATING.............
+04:11:35         CONFIGURING...
+04:12:06         DEPLOYED.
+04:12:16     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+04:12:16     Start Monitor...OK
+04:12:16     Monitoring...OK
+04:12:17     Executing test...OK
+04:22:52     Stoping monitor...OK
+04:22:52     Getting test data...OK
+04:22:52     Getting test stats...OK
+04:22:52     Shutdown monitor...OK
+04:22:52     Getting Availability...OK
+04:22:53     Cleaning datastore...OK
+04:22:53     Getting summary...OK
+Finish test: T02.01.00-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevel-760
+04:22:53  ====== [T02.01.01-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevel-760] ======
+04:22:53     Updating config.json with PapamoscasElasticOnlyOneLevel.
+04:22:54     Restarting.........
+04:24:57         UNDEPLOYED..................
+04:28:05         ALLOCATING.............
+04:30:19         CONFIGURING...
+04:30:50         DEPLOYED.
+04:31:00     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+04:31:01     Start Monitor...OK
+04:31:01     Monitoring...OK
+04:31:01     Executing test...OK
+04:41:38     Stoping monitor...OK
+04:41:38     Getting test data...OK
+04:41:38     Getting test stats...OK
+04:41:38     Shutdown monitor...OK
+04:41:38     Getting Availability...OK
+04:41:39     Cleaning datastore...OK
+04:41:39     Getting summary...OK
+Finish test: T02.01.01-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevel-760
+04:41:40  ====== [T02.01.02-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevel-760] ======
+04:41:40     Updating config.json with PapamoscasElasticOnlyOneLevel.
+04:41:40     Restarting.........
+04:43:41         UNDEPLOYED.........
+04:45:15         ALLOCATING.............
+04:47:29         CONFIGURING...
+04:48:00         DEPLOYED.
+04:48:10     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+04:48:10     Start Monitor...OK
+04:48:10     Monitoring...OK
+04:48:11     Executing test...OK
+05:09:29     Stoping monitor...OK
+05:09:29     Getting test data...OK
+05:09:29     Getting test stats...OK
+05:09:29     Shutdown monitor...OK
+05:09:29     Getting Availability...OK
+05:09:30     Cleaning datastore...OK
+05:09:31     Getting summary...OK
+Finish test: T02.01.02-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevel-760
+05:09:31  ====== [T02.01.00-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+05:09:31     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisioned.
+05:09:32     Restarting.........
+05:11:35         UNDEPLOYED....
+05:12:16         ALLOCATING..............
+05:14:41         CONFIGURING....
+05:15:22         DEPLOYED.
+05:15:32     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+05:15:33     Start Monitor...OK
+05:15:33     Monitoring...OK
+05:15:33     Executing test...OK
+05:26:07     Stoping monitor...OK
+05:26:07     Getting test data...OK
+05:26:07     Getting test stats...OK
+05:26:07     Shutdown monitor...OK
+05:26:07     Getting Availability...OK
+05:26:08     Cleaning datastore...OK
+05:26:09     Getting summary...OK
+Finish test: T02.01.00-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760
+05:26:09  ====== [T02.01.01-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+05:26:09     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisioned.
+05:26:09     Restarting.........
+05:28:12         UNDEPLOYED.................
+05:31:08         ALLOCATING...................................................r
+05:40:01         ........
+05:41:50         UNDEPLOYED.......
+05:43:03         ALLOCATING....
+05:43:45         .
+05:43:56         ALLOCATING........................................................r
+05:53:41         ........
+05:55:25         UNDEPLOYED............................
+06:00:15         ALLOCATING........................................06:06:59  ====== [T02.01.02-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+06:06:59     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisioned.
+06:06:59     Restarting.........
+06:09:03         UNDEPLOYED...
+06:09:34         ALLOCATING.......................................................
+06:19:03         STAGING.
+06:19:13         CONFIGURING...
+06:19:46         DEPLOYED.
+06:19:56     Creating agreements....
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://150.214.188.130:81/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://150.214.188.130:81/api/v5/agreements?template=basici&agreement=t1>
+             <http://150.214.188.130:81/api/v5/agreements?template=proi&agreement=t2>
+06:19:56     Start Monitor...OK
+06:19:56     Monitoring...OK
+06:19:56     Executing test...OK
+06:30:30     Stoping monitor...OK
+06:30:30     Getting test data...OK
+06:30:31     Getting test stats...OK
+06:30:31     Shutdown monitor...OK
+06:30:31     Getting Availability...OK
+06:30:31     Cleaning datastore...OK
+06:30:32     Getting summary...OK
+Finish test: T02.01.02-2_8_8_3_7_6_5-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760

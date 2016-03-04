@@ -1,0 +1,4489 @@
+Start test with throughput intervals: 8,2,7,1,8,1,1 duration per interval: 120 and estimate duration: 840 min
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 0 ops/s
+Error total : 0 %
+{"numOfRequest":16,"errors":0,"OK":0}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 3 ops/s
+Error total : 0 %
+{"numOfRequest":32,"errors":0,"OK":5}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 4 ops/s
+Error total : 0 %
+{"numOfRequest":48,"errors":0,"OK":12}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 5 ops/s
+Error total : 0 %
+{"numOfRequest":64,"errors":0,"OK":19}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 6 ops/s
+Error total : 0 %
+{"numOfRequest":80,"errors":0,"OK":31}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 0 %
+{"numOfRequest":96,"errors":0,"OK":43}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 0 %
+{"numOfRequest":112,"errors":0,"OK":49}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 0 %
+{"numOfRequest":128,"errors":0,"OK":57}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 0 %
+{"numOfRequest":144,"errors":0,"OK":65}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 0 %
+{"numOfRequest":160,"errors":0,"OK":80}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 0 %
+{"numOfRequest":176,"errors":0,"OK":89}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 0 %
+{"numOfRequest":192,"errors":0,"OK":98}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 0 %
+{"numOfRequest":208,"errors":0,"OK":110}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":224,"errors":0,"OK":123}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":240,"errors":0,"OK":130}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":256,"errors":0,"OK":144}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":272,"errors":0,"OK":155}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":288,"errors":0,"OK":166}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":304,"errors":0,"OK":175}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":320,"errors":0,"OK":184}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":336,"errors":0,"OK":197}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 0 %
+{"numOfRequest":352,"errors":0,"OK":208}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 0 %
+{"numOfRequest":368,"errors":0,"OK":219}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 0 %
+{"numOfRequest":384,"errors":0,"OK":229}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 0 %
+{"numOfRequest":400,"errors":0,"OK":239}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 0 %
+{"numOfRequest":416,"errors":0,"OK":259}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 0 %
+{"numOfRequest":432,"errors":0,"OK":281}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 0 %
+{"numOfRequest":448,"errors":0,"OK":293}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":464,"errors":0,"OK":309}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":480,"errors":0,"OK":319}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":496,"errors":0,"OK":337}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":512,"errors":0,"OK":361}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":528,"errors":0,"OK":387}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":544,"errors":0,"OK":406}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":560,"errors":0,"OK":417}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":576,"errors":0,"OK":440}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":592,"errors":0,"OK":452}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":608,"errors":0,"OK":468}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":624,"errors":0,"OK":488}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":640,"errors":0,"OK":506}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":656,"errors":0,"OK":525}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":672,"errors":0,"OK":544}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":688,"errors":0,"OK":566}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":704,"errors":0,"OK":584}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":720,"errors":0,"OK":594}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":736,"errors":0,"OK":608}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":752,"errors":0,"OK":620}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":768,"errors":0,"OK":633}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":784,"errors":0,"OK":642}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":800,"errors":0,"OK":657}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":816,"errors":0,"OK":682}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":832,"errors":0,"OK":702}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":848,"errors":0,"OK":713}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":864,"errors":0,"OK":728}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":880,"errors":0,"OK":744}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":896,"errors":0,"OK":754}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":912,"errors":0,"OK":765}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":928,"errors":0,"OK":774}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":944,"errors":0,"OK":792}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":960,"errors":0,"OK":813}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":976,"errors":0,"OK":832}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":992,"errors":0,"OK":846}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1008,"errors":0,"OK":858}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1024,"errors":0,"OK":871}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1040,"errors":0,"OK":889}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1056,"errors":0,"OK":903}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1072,"errors":0,"OK":921}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1088,"errors":0,"OK":930}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1104,"errors":0,"OK":943}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1120,"errors":0,"OK":957}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1136,"errors":0,"OK":978}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1152,"errors":0,"OK":998}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1168,"errors":0,"OK":1016}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1184,"errors":0,"OK":1034}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1200,"errors":0,"OK":1047}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1216,"errors":0,"OK":1064}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1232,"errors":0,"OK":1073}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1248,"errors":0,"OK":1088}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1264,"errors":0,"OK":1107}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1280,"errors":0,"OK":1120}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1296,"errors":0,"OK":1145}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1312,"errors":0,"OK":1162}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1328,"errors":0,"OK":1177}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1344,"errors":0,"OK":1192}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1360,"errors":0,"OK":1192}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1376,"errors":0,"OK":1192}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1392,"errors":0,"OK":1197}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1408,"errors":0,"OK":1197}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1424,"errors":0,"OK":1197}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1440,"errors":0,"OK":1213}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 14 ops/s
+Error total : 0 %
+{"numOfRequest":1456,"errors":0,"OK":1231}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1472,"errors":0,"OK":1231}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1488,"errors":0,"OK":1231}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1504,"errors":0,"OK":1231}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1520,"errors":0,"OK":1231}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1536,"errors":0,"OK":1235}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1552,"errors":0,"OK":1249}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1568,"errors":0,"OK":1271}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1584,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1600,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1616,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 13 ops/s
+Error total : 0 %
+{"numOfRequest":1632,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1648,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1664,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1680,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1696,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1712,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1728,"errors":0,"OK":1282}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1744,"errors":0,"OK":1289}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1760,"errors":0,"OK":1301}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1776,"errors":0,"OK":1318}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1792,"errors":0,"OK":1336}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1808,"errors":0,"OK":1336}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1824,"errors":0,"OK":1336}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1840,"errors":0,"OK":1336}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1856,"errors":0,"OK":1336}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1872,"errors":0,"OK":1340}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1888,"errors":0,"OK":1340}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1904,"errors":0,"OK":1340}
+Actual throughput: 8
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1920,"errors":0,"OK":1351}
+Actual throughput: 2
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1924,"errors":0,"OK":1356}
+Actual throughput: 2
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1928,"errors":0,"OK":1356}
+Actual throughput: 2
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1932,"errors":0,"OK":1356}
+Actual throughput: 2
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1936,"errors":0,"OK":1369}
+Actual throughput: 2
+Throughput medio salida: 16 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1940,"errors":0,"OK":1404}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1944,"errors":0,"OK":1421}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1948,"errors":0,"OK":1437}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0 %
+{"numOfRequest":1952,"errors":0,"OK":1457}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1956,"errors":0,"OK":1485}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1960,"errors":0,"OK":1508}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1964,"errors":0,"OK":1533}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1968,"errors":0,"OK":1561}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1972,"errors":0,"OK":1578}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1976,"errors":0,"OK":1592}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1980,"errors":0,"OK":1603}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1984,"errors":0,"OK":1614}
+Actual throughput: 2
+Throughput medio salida: 15 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1988,"errors":0,"OK":1631}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1992,"errors":0,"OK":1650}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":1996,"errors":0,"OK":1667}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2000,"errors":0,"OK":1677}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2004,"errors":0,"OK":1690}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2008,"errors":0,"OK":1698}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2012,"errors":0,"OK":1711}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2016,"errors":0,"OK":1720}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2020,"errors":0,"OK":1736}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2024,"errors":0,"OK":1748}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0 %
+{"numOfRequest":2028,"errors":0,"OK":1759}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.049212598425196846 %
+{"numOfRequest":2032,"errors":1,"OK":1773}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04911591355599214 %
+{"numOfRequest":2036,"errors":1,"OK":1789}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.049019607843137254 %
+{"numOfRequest":2040,"errors":1,"OK":1812}
+Actual throughput: 2
+Throughput medio salida: 14 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04892367906066536 %
+{"numOfRequest":2044,"errors":1,"OK":1823}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.048828125 %
+{"numOfRequest":2048,"errors":1,"OK":1838}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04873294346978557 %
+{"numOfRequest":2052,"errors":1,"OK":1849}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.048638132295719845 %
+{"numOfRequest":2056,"errors":1,"OK":1851}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04854368932038835 %
+{"numOfRequest":2060,"errors":1,"OK":1852}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04844961240310078 %
+{"numOfRequest":2064,"errors":1,"OK":1861}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04835589941972921 %
+{"numOfRequest":2068,"errors":1,"OK":1872}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04826254826254826 %
+{"numOfRequest":2072,"errors":1,"OK":1880}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04816955684007707 %
+{"numOfRequest":2076,"errors":1,"OK":1890}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04807692307692308 %
+{"numOfRequest":2080,"errors":1,"OK":1897}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04798464491362764 %
+{"numOfRequest":2084,"errors":1,"OK":1904}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.047892720306513405 %
+{"numOfRequest":2088,"errors":1,"OK":1915}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04780114722753346 %
+{"numOfRequest":2092,"errors":1,"OK":1922}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.047709923664122134 %
+{"numOfRequest":2096,"errors":1,"OK":1930}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.047619047619047616 %
+{"numOfRequest":2100,"errors":1,"OK":1943}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04752851711026616 %
+{"numOfRequest":2104,"errors":1,"OK":1947}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04743833017077799 %
+{"numOfRequest":2108,"errors":1,"OK":1958}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04734848484848485 %
+{"numOfRequest":2112,"errors":1,"OK":1965}
+Actual throughput: 2
+Throughput medio salida: 13 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04725897920604915 %
+{"numOfRequest":2116,"errors":1,"OK":1979}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04716981132075472 %
+{"numOfRequest":2120,"errors":1,"OK":1986}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.047080979284369114 %
+{"numOfRequest":2124,"errors":1,"OK":1994}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.046992481203007516 %
+{"numOfRequest":2128,"errors":1,"OK":2002}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04690431519699812 %
+{"numOfRequest":2132,"errors":1,"OK":2010}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04681647940074907 %
+{"numOfRequest":2136,"errors":1,"OK":2024}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04672897196261683 %
+{"numOfRequest":2140,"errors":1,"OK":2031}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.046641791044776115 %
+{"numOfRequest":2144,"errors":1,"OK":2035}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 12 ops/s
+Error total : 0.04655493482309125 %
+{"numOfRequest":2148,"errors":1,"OK":2041}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.046468401486988845 %
+{"numOfRequest":2152,"errors":1,"OK":2045}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.0463821892393321 %
+{"numOfRequest":2156,"errors":1,"OK":2053}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.1388888888888889 %
+{"numOfRequest":2160,"errors":3,"OK":2061}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.13863216266173753 %
+{"numOfRequest":2164,"errors":3,"OK":2070}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.13837638376383762 %
+{"numOfRequest":2168,"errors":3,"OK":2074}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.4143646408839779 %
+{"numOfRequest":2172,"errors":9,"OK":2079}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5514705882352942 %
+{"numOfRequest":2176,"errors":12,"OK":2085}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5504587155963303 %
+{"numOfRequest":2180,"errors":12,"OK":2089}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5494505494505495 %
+{"numOfRequest":2184,"errors":12,"OK":2097}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5484460694698354 %
+{"numOfRequest":2188,"errors":12,"OK":2101}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5474452554744526 %
+{"numOfRequest":2192,"errors":12,"OK":2105}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.546448087431694 %
+{"numOfRequest":2196,"errors":12,"OK":2111}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5454545454545455 %
+{"numOfRequest":2200,"errors":12,"OK":2115}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5444646098003629 %
+{"numOfRequest":2204,"errors":12,"OK":2119}
+Actual throughput: 2
+Throughput medio salida: 12 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5434782608695652 %
+{"numOfRequest":2208,"errors":12,"OK":2123}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.5424954792043399 %
+{"numOfRequest":2212,"errors":12,"OK":2127}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.631768953068592 %
+{"numOfRequest":2216,"errors":14,"OK":2131}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.6306306306306306 %
+{"numOfRequest":2220,"errors":14,"OK":2135}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.6744604316546763 %
+{"numOfRequest":2224,"errors":15,"OK":2139}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.6732495511669658 %
+{"numOfRequest":2228,"errors":15,"OK":2143}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.6720430107526881 %
+{"numOfRequest":2232,"errors":15,"OK":2147}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.6708407871198568 %
+{"numOfRequest":2236,"errors":15,"OK":2151}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.7589285714285714 %
+{"numOfRequest":2240,"errors":17,"OK":2155}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.7575757575757576 %
+{"numOfRequest":2244,"errors":17,"OK":2159}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.800711743772242 %
+{"numOfRequest":2248,"errors":18,"OK":2163}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.7992895204262878 %
+{"numOfRequest":2252,"errors":18,"OK":2167}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.7978723404255319 %
+{"numOfRequest":2256,"errors":18,"OK":2171}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.8407079646017699 %
+{"numOfRequest":2260,"errors":19,"OK":2175}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.8392226148409895 %
+{"numOfRequest":2264,"errors":19,"OK":2179}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.8377425044091711 %
+{"numOfRequest":2268,"errors":19,"OK":2183}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.8362676056338028 %
+{"numOfRequest":2272,"errors":19,"OK":2187}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.8347978910369069 %
+{"numOfRequest":2276,"errors":19,"OK":2191}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.8771929824561403 %
+{"numOfRequest":2280,"errors":20,"OK":2195}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 0.9632224168126094 %
+{"numOfRequest":2284,"errors":22,"OK":2199}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.2237762237762237 %
+{"numOfRequest":2288,"errors":28,"OK":2203}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.4397905759162304 %
+{"numOfRequest":2292,"errors":33,"OK":2207}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.480836236933798 %
+{"numOfRequest":2296,"errors":34,"OK":2211}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.7391304347826086 %
+{"numOfRequest":2300,"errors":40,"OK":2215}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9097222222222223 %
+{"numOfRequest":2304,"errors":44,"OK":2219}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.2097053726169844 %
+{"numOfRequest":2308,"errors":51,"OK":2223}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.4653979238754324 %
+{"numOfRequest":2312,"errors":57,"OK":2227}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.547495682210708 %
+{"numOfRequest":2316,"errors":59,"OK":2231}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.103448275862069 %
+{"numOfRequest":2320,"errors":72,"OK":2235}
+Actual throughput: 2
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.098106712564544 %
+{"numOfRequest":2324,"errors":72,"OK":2239}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.178694158075601 %
+{"numOfRequest":2328,"errors":74,"OK":2243}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.173241852487135 %
+{"numOfRequest":2332,"errors":74,"OK":2247}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1678082191780823 %
+{"numOfRequest":2336,"errors":74,"OK":2251}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1623931623931623 %
+{"numOfRequest":2340,"errors":74,"OK":2255}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1569965870307164 %
+{"numOfRequest":2344,"errors":74,"OK":2259}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1516183986371376 %
+{"numOfRequest":2348,"errors":74,"OK":2263}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1462585034013606 %
+{"numOfRequest":2352,"errors":74,"OK":2267}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1409168081494054 %
+{"numOfRequest":2356,"errors":74,"OK":2271}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.2627118644067794 %
+{"numOfRequest":2360,"errors":77,"OK":2275}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.2571912013536384 %
+{"numOfRequest":2364,"errors":77,"OK":2279}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.2516891891891895 %
+{"numOfRequest":2368,"errors":77,"OK":2283}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.372681281618887 %
+{"numOfRequest":2372,"errors":80,"OK":2287}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.3670033670033668 %
+{"numOfRequest":2376,"errors":80,"OK":2291}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.361344537815126 %
+{"numOfRequest":2380,"errors":80,"OK":2295}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.3976510067114094 %
+{"numOfRequest":2384,"errors":81,"OK":2299}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.391959798994975 %
+{"numOfRequest":2388,"errors":81,"OK":2303}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.38628762541806 %
+{"numOfRequest":2392,"errors":81,"OK":2307}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.380634390651085 %
+{"numOfRequest":2396,"errors":81,"OK":2311}
+Actual throughput: 2
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.375 %
+{"numOfRequest":2400,"errors":81,"OK":2315}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.3554266777133392 %
+{"numOfRequest":2414,"errors":81,"OK":2319}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.3360790774299836 %
+{"numOfRequest":2428,"errors":81,"OK":2331}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.3169533169533167 %
+{"numOfRequest":2442,"errors":81,"OK":2344}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.298045602605863 %
+{"numOfRequest":2456,"errors":81,"OK":2356}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.279352226720648 %
+{"numOfRequest":2470,"errors":81,"OK":2368}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.260869565217391 %
+{"numOfRequest":2484,"errors":81,"OK":2380}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.242594075260208 %
+{"numOfRequest":2498,"errors":81,"OK":2392}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.2245222929936306 %
+{"numOfRequest":2512,"errors":81,"OK":2404}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.2066508313539197 %
+{"numOfRequest":2526,"errors":81,"OK":2416}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.188976377952756 %
+{"numOfRequest":2540,"errors":81,"OK":2430}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1714956930305407 %
+{"numOfRequest":2554,"errors":81,"OK":2443}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1542056074766354 %
+{"numOfRequest":2568,"errors":81,"OK":2455}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.13710302091402 %
+{"numOfRequest":2582,"errors":81,"OK":2471}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.1201848998459165 %
+{"numOfRequest":2596,"errors":81,"OK":2483}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.103448275862069 %
+{"numOfRequest":2610,"errors":81,"OK":2498}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.086890243902439 %
+{"numOfRequest":2624,"errors":81,"OK":2510}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.0705079605761942 %
+{"numOfRequest":2638,"errors":81,"OK":2522}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.0542986425339365 %
+{"numOfRequest":2652,"errors":81,"OK":2535}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.0382595648912227 %
+{"numOfRequest":2666,"errors":81,"OK":2547}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.0223880597014925 %
+{"numOfRequest":2680,"errors":81,"OK":2562}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 3.0066815144766146 %
+{"numOfRequest":2694,"errors":81,"OK":2575}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.9911373707533233 %
+{"numOfRequest":2708,"errors":81,"OK":2589}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.9757531227038942 %
+{"numOfRequest":2722,"errors":81,"OK":2601}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.9605263157894735 %
+{"numOfRequest":2736,"errors":81,"OK":2613}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.9454545454545453 %
+{"numOfRequest":2750,"errors":81,"OK":2627}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.930535455861071 %
+{"numOfRequest":2764,"errors":81,"OK":2641}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.915766738660907 %
+{"numOfRequest":2778,"errors":81,"OK":2653}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.9011461318051577 %
+{"numOfRequest":2792,"errors":81,"OK":2666}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.886671418389166 %
+{"numOfRequest":2806,"errors":81,"OK":2678}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.872340425531915 %
+{"numOfRequest":2820,"errors":81,"OK":2692}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.858151023288638 %
+{"numOfRequest":2834,"errors":81,"OK":2704}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.8441011235955056 %
+{"numOfRequest":2848,"errors":81,"OK":2719}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.8301886792452833 %
+{"numOfRequest":2862,"errors":81,"OK":2732}
+Actual throughput: 7
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.8164116828929067 %
+{"numOfRequest":2876,"errors":81,"OK":2749}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.8027681660899653 %
+{"numOfRequest":2890,"errors":81,"OK":2764}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.7892561983471076 %
+{"numOfRequest":2904,"errors":81,"OK":2778}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.7758738862234407 %
+{"numOfRequest":2918,"errors":81,"OK":2791}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.762619372442019 %
+{"numOfRequest":2932,"errors":81,"OK":2804}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.74949083503055 %
+{"numOfRequest":2946,"errors":81,"OK":2816}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.736486486486487 %
+{"numOfRequest":2960,"errors":81,"OK":2829}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.723604572965703 %
+{"numOfRequest":2974,"errors":81,"OK":2847}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.710843373493976 %
+{"numOfRequest":2988,"errors":81,"OK":2863}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.698201199200533 %
+{"numOfRequest":3002,"errors":81,"OK":2875}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.6856763925729443 %
+{"numOfRequest":3016,"errors":81,"OK":2892}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.6732673267326734 %
+{"numOfRequest":3030,"errors":81,"OK":2905}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.6609724047306176 %
+{"numOfRequest":3044,"errors":81,"OK":2918}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 2.648790058862001 %
+{"numOfRequest":3058,"errors":81,"OK":2930}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.63671875 %
+{"numOfRequest":3072,"errors":81,"OK":2944}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.624756966947505 %
+{"numOfRequest":3086,"errors":81,"OK":2956}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.612903225806452 %
+{"numOfRequest":3100,"errors":81,"OK":2968}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.601156069364162 %
+{"numOfRequest":3114,"errors":81,"OK":2982}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.589514066496164 %
+{"numOfRequest":3128,"errors":81,"OK":2994}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.577975811584978 %
+{"numOfRequest":3142,"errors":81,"OK":3008}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.5665399239543727 %
+{"numOfRequest":3156,"errors":81,"OK":3023}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.5552050473186116 %
+{"numOfRequest":3170,"errors":81,"OK":3035}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.5439698492462313 %
+{"numOfRequest":3184,"errors":81,"OK":3048}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.5328330206378986 %
+{"numOfRequest":3198,"errors":81,"OK":3060}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.5217932752179326 %
+{"numOfRequest":3212,"errors":81,"OK":3072}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.510849349039058 %
+{"numOfRequest":3226,"errors":81,"OK":3085}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.5 %
+{"numOfRequest":3240,"errors":81,"OK":3097}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.4892440073755377 %
+{"numOfRequest":3254,"errors":81,"OK":3112}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.478580171358629 %
+{"numOfRequest":3268,"errors":81,"OK":3124}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.46800731261426 %
+{"numOfRequest":3282,"errors":81,"OK":3136}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.45752427184466 %
+{"numOfRequest":3296,"errors":81,"OK":3150}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.4471299093655587 %
+{"numOfRequest":3310,"errors":81,"OK":3162}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.436823104693141 %
+{"numOfRequest":3324,"errors":81,"OK":3174}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.4266027561414023 %
+{"numOfRequest":3338,"errors":81,"OK":3187}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.416467780429594 %
+{"numOfRequest":3352,"errors":81,"OK":3203}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.406417112299465 %
+{"numOfRequest":3366,"errors":81,"OK":3219}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.396449704142012 %
+{"numOfRequest":3380,"errors":81,"OK":3233}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.386564525633471 %
+{"numOfRequest":3394,"errors":81,"OK":3245}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3767605633802815 %
+{"numOfRequest":3408,"errors":81,"OK":3257}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3670368205727645 %
+{"numOfRequest":3422,"errors":81,"OK":3273}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3573923166472643 %
+{"numOfRequest":3436,"errors":81,"OK":3290}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3478260869565215 %
+{"numOfRequest":3450,"errors":81,"OK":3306}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.338337182448037 %
+{"numOfRequest":3464,"errors":81,"OK":3324}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3289246693502013 %
+{"numOfRequest":3478,"errors":81,"OK":3339}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3195876288659796 %
+{"numOfRequest":3492,"errors":81,"OK":3355}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3103251568739305 %
+{"numOfRequest":3506,"errors":81,"OK":3370}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.3011363636363633 %
+{"numOfRequest":3520,"errors":81,"OK":3387}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2920203735144313 %
+{"numOfRequest":3534,"errors":81,"OK":3402}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.282976324689966 %
+{"numOfRequest":3548,"errors":81,"OK":3418}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.27400336889388 %
+{"numOfRequest":3562,"errors":81,"OK":3436}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2651006711409396 %
+{"numOfRequest":3576,"errors":81,"OK":3454}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.256267409470752 %
+{"numOfRequest":3590,"errors":81,"OK":3472}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2475027746947833 %
+{"numOfRequest":3604,"errors":81,"OK":3491}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2388059701492535 %
+{"numOfRequest":3618,"errors":81,"OK":3506}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2301762114537445 %
+{"numOfRequest":3632,"errors":81,"OK":3524}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2216127262753704 %
+{"numOfRequest":3646,"errors":81,"OK":3540}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2131147540983607 %
+{"numOfRequest":3660,"errors":81,"OK":3556}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.2046815459989113 %
+{"numOfRequest":3674,"errors":81,"OK":3572}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1963123644251628 %
+{"numOfRequest":3688,"errors":81,"OK":3587}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.188006482982172 %
+{"numOfRequest":3702,"errors":81,"OK":3602}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1797631862217437 %
+{"numOfRequest":3716,"errors":81,"OK":3617}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1715817694369974 %
+{"numOfRequest":3730,"errors":81,"OK":3633}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1634615384615383 %
+{"numOfRequest":3744,"errors":81,"OK":3649}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.155401809473124 %
+{"numOfRequest":3758,"errors":81,"OK":3663}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1474019088016965 %
+{"numOfRequest":3772,"errors":81,"OK":3677}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.13946117274168 %
+{"numOfRequest":3786,"errors":81,"OK":3691}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1315789473684212 %
+{"numOfRequest":3800,"errors":81,"OK":3705}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1237545883586786 %
+{"numOfRequest":3814,"errors":81,"OK":3719}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.115987460815047 %
+{"numOfRequest":3828,"errors":81,"OK":3733}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1082769390942215 %
+{"numOfRequest":3842,"errors":81,"OK":3747}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.1006224066390042 %
+{"numOfRequest":3856,"errors":81,"OK":3761}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0930232558139537 %
+{"numOfRequest":3870,"errors":81,"OK":3775}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.085478887744593 %
+{"numOfRequest":3884,"errors":81,"OK":3789}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.077988712160082 %
+{"numOfRequest":3898,"errors":81,"OK":3803}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0705521472392636 %
+{"numOfRequest":3912,"errors":81,"OK":3817}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0631686194600105 %
+{"numOfRequest":3926,"errors":81,"OK":3831}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0558375634517767 %
+{"numOfRequest":3940,"errors":81,"OK":3845}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.04855842185129 %
+{"numOfRequest":3954,"errors":81,"OK":3859}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.04133064516129 %
+{"numOfRequest":3968,"errors":81,"OK":3873}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0341536916122553 %
+{"numOfRequest":3982,"errors":81,"OK":3887}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.027027027027027 %
+{"numOfRequest":3996,"errors":81,"OK":3901}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0199501246882794 %
+{"numOfRequest":4010,"errors":81,"OK":3915}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0129224652087476 %
+{"numOfRequest":4024,"errors":81,"OK":3929}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 2.0059435364041605 %
+{"numOfRequest":4038,"errors":81,"OK":3943}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9990128331688055 %
+{"numOfRequest":4052,"errors":81,"OK":3957}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9921298573536645 %
+{"numOfRequest":4066,"errors":81,"OK":3971}
+Actual throughput: 7
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9852941176470587 %
+{"numOfRequest":4080,"errors":81,"OK":3985}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9843214110730034 %
+{"numOfRequest":4082,"errors":81,"OK":3999}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9833496571988247 %
+{"numOfRequest":4084,"errors":81,"OK":4001}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9823788546255507 %
+{"numOfRequest":4086,"errors":81,"OK":4003}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.981409001956947 %
+{"numOfRequest":4088,"errors":81,"OK":4005}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.980440097799511 %
+{"numOfRequest":4090,"errors":81,"OK":4007}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9794721407624634 %
+{"numOfRequest":4092,"errors":81,"OK":4009}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.978505129457743 %
+{"numOfRequest":4094,"errors":81,"OK":4011}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9775390625 %
+{"numOfRequest":4096,"errors":81,"OK":4013}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9765739385065886 %
+{"numOfRequest":4098,"errors":81,"OK":4015}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.975609756097561 %
+{"numOfRequest":4100,"errors":81,"OK":4017}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9746465138956608 %
+{"numOfRequest":4102,"errors":81,"OK":4019}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9736842105263157 %
+{"numOfRequest":4104,"errors":81,"OK":4021}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9727228446176328 %
+{"numOfRequest":4106,"errors":81,"OK":4023}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9717624148003894 %
+{"numOfRequest":4108,"errors":81,"OK":4025}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9708029197080292 %
+{"numOfRequest":4110,"errors":81,"OK":4027}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9698443579766536 %
+{"numOfRequest":4112,"errors":81,"OK":4029}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9688867282450169 %
+{"numOfRequest":4114,"errors":81,"OK":4031}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9679300291545192 %
+{"numOfRequest":4116,"errors":81,"OK":4033}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9669742593491986 %
+{"numOfRequest":4118,"errors":81,"OK":4035}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.966019417475728 %
+{"numOfRequest":4120,"errors":81,"OK":4037}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9650655021834063 %
+{"numOfRequest":4122,"errors":81,"OK":4039}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9641125121241512 %
+{"numOfRequest":4124,"errors":81,"OK":4041}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9631604459524963 %
+{"numOfRequest":4126,"errors":81,"OK":4043}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9622093023255813 %
+{"numOfRequest":4128,"errors":81,"OK":4045}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9612590799031475 %
+{"numOfRequest":4130,"errors":81,"OK":4047}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9603097773475315 %
+{"numOfRequest":4132,"errors":81,"OK":4049}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9593613933236573 %
+{"numOfRequest":4134,"errors":81,"OK":4051}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9584139264990328 %
+{"numOfRequest":4136,"errors":81,"OK":4053}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9574673755437408 %
+{"numOfRequest":4138,"errors":81,"OK":4055}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.956521739130435 %
+{"numOfRequest":4140,"errors":81,"OK":4057}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9555770159343313 %
+{"numOfRequest":4142,"errors":81,"OK":4059}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9546332046332044 %
+{"numOfRequest":4144,"errors":81,"OK":4061}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9536903039073805 %
+{"numOfRequest":4146,"errors":81,"OK":4063}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.95274831243973 %
+{"numOfRequest":4148,"errors":81,"OK":4065}
+Actual throughput: 1
+Throughput medio salida: 11 ops/s
+Throughput medio llegada: 11 ops/s
+Error total : 1.9518072289156627 %
+{"numOfRequest":4150,"errors":81,"OK":4067}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9508670520231215 %
+{"numOfRequest":4152,"errors":81,"OK":4069}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9499277804525756 %
+{"numOfRequest":4154,"errors":81,"OK":4071}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9489894128970164 %
+{"numOfRequest":4156,"errors":81,"OK":4073}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.948051948051948 %
+{"numOfRequest":4158,"errors":81,"OK":4075}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9471153846153846 %
+{"numOfRequest":4160,"errors":81,"OK":4077}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9461797212878422 %
+{"numOfRequest":4162,"errors":81,"OK":4079}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9452449567723344 %
+{"numOfRequest":4164,"errors":81,"OK":4081}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9443110897743638 %
+{"numOfRequest":4166,"errors":81,"OK":4083}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9433781190019195 %
+{"numOfRequest":4168,"errors":81,"OK":4085}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9424460431654675 %
+{"numOfRequest":4170,"errors":81,"OK":4087}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9415148609779485 %
+{"numOfRequest":4172,"errors":81,"OK":4089}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9405845711547676 %
+{"numOfRequest":4174,"errors":81,"OK":4091}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9396551724137931 %
+{"numOfRequest":4176,"errors":81,"OK":4093}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9387266634753473 %
+{"numOfRequest":4178,"errors":81,"OK":4095}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9377990430622007 %
+{"numOfRequest":4180,"errors":81,"OK":4097}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9368723098995695 %
+{"numOfRequest":4182,"errors":81,"OK":4099}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9359464627151053 %
+{"numOfRequest":4184,"errors":81,"OK":4101}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9350215002388915 %
+{"numOfRequest":4186,"errors":81,"OK":4103}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9340974212034383 %
+{"numOfRequest":4188,"errors":81,"OK":4105}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9331742243436756 %
+{"numOfRequest":4190,"errors":81,"OK":4107}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9322519083969467 %
+{"numOfRequest":4192,"errors":81,"OK":4109}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9313304721030045 %
+{"numOfRequest":4194,"errors":81,"OK":4111}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9304099142040037 %
+{"numOfRequest":4196,"errors":81,"OK":4113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9294902334444974 %
+{"numOfRequest":4198,"errors":81,"OK":4115}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9285714285714284 %
+{"numOfRequest":4200,"errors":81,"OK":4117}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9276534983341267 %
+{"numOfRequest":4202,"errors":81,"OK":4119}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9267364414843007 %
+{"numOfRequest":4204,"errors":81,"OK":4121}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.925820256776034 %
+{"numOfRequest":4206,"errors":81,"OK":4123}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9249049429657796 %
+{"numOfRequest":4208,"errors":81,"OK":4125}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9239904988123515 %
+{"numOfRequest":4210,"errors":81,"OK":4127}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9230769230769231 %
+{"numOfRequest":4212,"errors":81,"OK":4129}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9221642145230187 %
+{"numOfRequest":4214,"errors":81,"OK":4131}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9212523719165084 %
+{"numOfRequest":4216,"errors":81,"OK":4133}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9203413940256047 %
+{"numOfRequest":4218,"errors":81,"OK":4135}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.919431279620853 %
+{"numOfRequest":4220,"errors":81,"OK":4137}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9185220274751305 %
+{"numOfRequest":4222,"errors":81,"OK":4139}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9176136363636365 %
+{"numOfRequest":4224,"errors":81,"OK":4141}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9167061050638903 %
+{"numOfRequest":4226,"errors":81,"OK":4143}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9157994323557237 %
+{"numOfRequest":4228,"errors":81,"OK":4145}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9148936170212765 %
+{"numOfRequest":4230,"errors":81,"OK":4147}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9139886578449905 %
+{"numOfRequest":4232,"errors":81,"OK":4149}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9130845536136043 %
+{"numOfRequest":4234,"errors":81,"OK":4151}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9121813031161474 %
+{"numOfRequest":4236,"errors":81,"OK":4153}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9112789051439358 %
+{"numOfRequest":4238,"errors":81,"OK":4155}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.910377358490566 %
+{"numOfRequest":4240,"errors":81,"OK":4157}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9094766619519095 %
+{"numOfRequest":4242,"errors":81,"OK":4159}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9085768143261077 %
+{"numOfRequest":4244,"errors":81,"OK":4161}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9076778144135658 %
+{"numOfRequest":4246,"errors":81,"OK":4163}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9067796610169492 %
+{"numOfRequest":4248,"errors":81,"OK":4165}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.9058823529411764 %
+{"numOfRequest":4250,"errors":81,"OK":4167}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.904985888993415 %
+{"numOfRequest":4252,"errors":81,"OK":4169}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.904090267983075 %
+{"numOfRequest":4254,"errors":81,"OK":4171}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9031954887218046 %
+{"numOfRequest":4256,"errors":81,"OK":4173}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.902301550023485 %
+{"numOfRequest":4258,"errors":81,"OK":4175}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9014084507042253 %
+{"numOfRequest":4260,"errors":81,"OK":4177}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9005161895823557 %
+{"numOfRequest":4262,"errors":81,"OK":4179}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8996247654784242 %
+{"numOfRequest":4264,"errors":81,"OK":4181}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.89873417721519 %
+{"numOfRequest":4266,"errors":81,"OK":4183}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8978444236176193 %
+{"numOfRequest":4268,"errors":81,"OK":4185}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8969555035128804 %
+{"numOfRequest":4270,"errors":81,"OK":4187}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8960674157303372 %
+{"numOfRequest":4272,"errors":81,"OK":4189}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8951801591015442 %
+{"numOfRequest":4274,"errors":81,"OK":4191}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8942937324602431 %
+{"numOfRequest":4276,"errors":81,"OK":4193}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8934081346423561 %
+{"numOfRequest":4278,"errors":81,"OK":4195}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8925233644859814 %
+{"numOfRequest":4280,"errors":81,"OK":4197}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8916394208313874 %
+{"numOfRequest":4282,"errors":81,"OK":4199}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8907563025210083 %
+{"numOfRequest":4284,"errors":81,"OK":4201}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8898740083994399 %
+{"numOfRequest":4286,"errors":81,"OK":4203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8889925373134326 %
+{"numOfRequest":4288,"errors":81,"OK":4205}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8881118881118881 %
+{"numOfRequest":4290,"errors":81,"OK":4207}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8872320596458527 %
+{"numOfRequest":4292,"errors":81,"OK":4209}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.886353050768514 %
+{"numOfRequest":4294,"errors":81,"OK":4211}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8854748603351956 %
+{"numOfRequest":4296,"errors":81,"OK":4213}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8845974872033502 %
+{"numOfRequest":4298,"errors":81,"OK":4215}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8837209302325582 %
+{"numOfRequest":4300,"errors":81,"OK":4217}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.882845188284519 %
+{"numOfRequest":4302,"errors":81,"OK":4219}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8819702602230486 %
+{"numOfRequest":4304,"errors":81,"OK":4221}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8810961449140733 %
+{"numOfRequest":4306,"errors":81,"OK":4223}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8802228412256268 %
+{"numOfRequest":4308,"errors":81,"OK":4225}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8793503480278422 %
+{"numOfRequest":4310,"errors":81,"OK":4227}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.87847866419295 %
+{"numOfRequest":4312,"errors":81,"OK":4229}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8776077885952713 %
+{"numOfRequest":4314,"errors":81,"OK":4231}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8767377201112143 %
+{"numOfRequest":4316,"errors":81,"OK":4233}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8758684576192681 %
+{"numOfRequest":4318,"errors":81,"OK":4235}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.875 %
+{"numOfRequest":4320,"errors":81,"OK":4237}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.868081180811808 %
+{"numOfRequest":4336,"errors":81,"OK":4239}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8612132352941175 %
+{"numOfRequest":4352,"errors":81,"OK":4255}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8543956043956045 %
+{"numOfRequest":4368,"errors":81,"OK":4271}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8476277372262775 %
+{"numOfRequest":4384,"errors":81,"OK":4287}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.840909090909091 %
+{"numOfRequest":4400,"errors":81,"OK":4303}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8342391304347827 %
+{"numOfRequest":4416,"errors":81,"OK":4319}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8276173285198556 %
+{"numOfRequest":4432,"errors":81,"OK":4335}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.821043165467626 %
+{"numOfRequest":4448,"errors":81,"OK":4351}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8145161290322582 %
+{"numOfRequest":4464,"errors":81,"OK":4367}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8080357142857144 %
+{"numOfRequest":4480,"errors":81,"OK":4383}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8016014234875446 %
+{"numOfRequest":4496,"errors":81,"OK":4399}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.795212765957447 %
+{"numOfRequest":4512,"errors":81,"OK":4415}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7888692579505299 %
+{"numOfRequest":4528,"errors":81,"OK":4431}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7825704225352113 %
+{"numOfRequest":4544,"errors":81,"OK":4447}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.776315789473684 %
+{"numOfRequest":4560,"errors":81,"OK":4463}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7701048951048952 %
+{"numOfRequest":4576,"errors":81,"OK":4479}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7639372822299653 %
+{"numOfRequest":4592,"errors":81,"OK":4495}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7578125 %
+{"numOfRequest":4608,"errors":81,"OK":4511}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7517301038062285 %
+{"numOfRequest":4624,"errors":81,"OK":4527}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7456896551724137 %
+{"numOfRequest":4640,"errors":81,"OK":4543}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7396907216494846 %
+{"numOfRequest":4656,"errors":81,"OK":4559}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7337328767123288 %
+{"numOfRequest":4672,"errors":81,"OK":4575}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.727815699658703 %
+{"numOfRequest":4688,"errors":81,"OK":4591}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7219387755102038 %
+{"numOfRequest":4704,"errors":81,"OK":4607}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7161016949152543 %
+{"numOfRequest":4720,"errors":81,"OK":4607}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.710304054054054 %
+{"numOfRequest":4736,"errors":81,"OK":4607}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7045454545454544 %
+{"numOfRequest":4752,"errors":81,"OK":4609}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6988255033557047 %
+{"numOfRequest":4768,"errors":81,"OK":4609}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.69314381270903 %
+{"numOfRequest":4784,"errors":81,"OK":4609}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6875 %
+{"numOfRequest":4800,"errors":81,"OK":4609}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6818936877076411 %
+{"numOfRequest":4816,"errors":81,"OK":4611}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6763245033112582 %
+{"numOfRequest":4832,"errors":81,"OK":4645}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.670792079207921 %
+{"numOfRequest":4848,"errors":81,"OK":4667}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6652960526315792 %
+{"numOfRequest":4864,"errors":81,"OK":4671}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6598360655737703 %
+{"numOfRequest":4880,"errors":81,"OK":4679}
+Actual throughput: 8
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6544117647058825 %
+{"numOfRequest":4896,"errors":81,"OK":4691}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6490228013029316 %
+{"numOfRequest":4912,"errors":81,"OK":4722}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6436688311688312 %
+{"numOfRequest":4928,"errors":81,"OK":4749}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6383495145631068 %
+{"numOfRequest":4944,"errors":81,"OK":4793}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6330645161290323 %
+{"numOfRequest":4960,"errors":81,"OK":4826}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6278135048231512 %
+{"numOfRequest":4976,"errors":81,"OK":4835}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.622596153846154 %
+{"numOfRequest":4992,"errors":81,"OK":4838}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6174121405750796 %
+{"numOfRequest":5008,"errors":81,"OK":4838}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6122611464968153 %
+{"numOfRequest":5024,"errors":81,"OK":4841}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.607142857142857 %
+{"numOfRequest":5040,"errors":81,"OK":4844}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6020569620253162 %
+{"numOfRequest":5056,"errors":81,"OK":4866}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.5970031545741326 %
+{"numOfRequest":5072,"errors":81,"OK":4920}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5919811320754718 %
+{"numOfRequest":5088,"errors":81,"OK":4949}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5869905956112853 %
+{"numOfRequest":5104,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.58203125 %
+{"numOfRequest":5120,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.5771028037383177 %
+{"numOfRequest":5136,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.5722049689440993 %
+{"numOfRequest":5152,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.5673374613003097 %
+{"numOfRequest":5168,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.5625 %
+{"numOfRequest":5184,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.5576923076923077 %
+{"numOfRequest":5200,"errors":81,"OK":4952}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.552914110429448 %
+{"numOfRequest":5216,"errors":81,"OK":4953}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.548165137614679 %
+{"numOfRequest":5232,"errors":81,"OK":4995}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5434451219512195 %
+{"numOfRequest":5248,"errors":81,"OK":5031}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5387537993920972 %
+{"numOfRequest":5264,"errors":81,"OK":5052}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5340909090909092 %
+{"numOfRequest":5280,"errors":81,"OK":5059}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5294561933534743 %
+{"numOfRequest":5296,"errors":81,"OK":5066}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5248493975903614 %
+{"numOfRequest":5312,"errors":81,"OK":5115}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5202702702702704 %
+{"numOfRequest":5328,"errors":81,"OK":5157}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5157185628742516 %
+{"numOfRequest":5344,"errors":81,"OK":5171}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5111940298507462 %
+{"numOfRequest":5360,"errors":81,"OK":5198}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5066964285714286 %
+{"numOfRequest":5376,"errors":81,"OK":5210}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5022255192878338 %
+{"numOfRequest":5392,"errors":81,"OK":5223}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4977810650887573 %
+{"numOfRequest":5408,"errors":81,"OK":5235}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4933628318584071 %
+{"numOfRequest":5424,"errors":81,"OK":5235}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.488970588235294 %
+{"numOfRequest":5440,"errors":81,"OK":5235}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4846041055718475 %
+{"numOfRequest":5456,"errors":81,"OK":5239}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4802631578947367 %
+{"numOfRequest":5472,"errors":81,"OK":5261}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4759475218658893 %
+{"numOfRequest":5488,"errors":81,"OK":5267}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.471656976744186 %
+{"numOfRequest":5504,"errors":81,"OK":5297}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4673913043478262 %
+{"numOfRequest":5520,"errors":81,"OK":5322}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.463150289017341 %
+{"numOfRequest":5536,"errors":81,"OK":5339}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4589337175792507 %
+{"numOfRequest":5552,"errors":81,"OK":5356}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4547413793103448 %
+{"numOfRequest":5568,"errors":81,"OK":5367}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4505730659025788 %
+{"numOfRequest":5584,"errors":81,"OK":5383}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4464285714285714 %
+{"numOfRequest":5600,"errors":81,"OK":5399}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4423076923076923 %
+{"numOfRequest":5616,"errors":81,"OK":5414}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4382102272727273 %
+{"numOfRequest":5632,"errors":81,"OK":5414}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4341359773371105 %
+{"numOfRequest":5648,"errors":81,"OK":5415}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.430084745762712 %
+{"numOfRequest":5664,"errors":81,"OK":5420}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.426056338028169 %
+{"numOfRequest":5680,"errors":81,"OK":5451}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4220505617977528 %
+{"numOfRequest":5696,"errors":81,"OK":5492}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4180672268907564 %
+{"numOfRequest":5712,"errors":81,"OK":5508}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4141061452513968 %
+{"numOfRequest":5728,"errors":81,"OK":5514}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.41016713091922 %
+{"numOfRequest":5744,"errors":81,"OK":5514}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.40625 %
+{"numOfRequest":5760,"errors":81,"OK":5532}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.402354570637119 %
+{"numOfRequest":5776,"errors":81,"OK":5553}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3984806629834254 %
+{"numOfRequest":5792,"errors":81,"OK":5562}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3946280991735538 %
+{"numOfRequest":5808,"errors":81,"OK":5562}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3907967032967032 %
+{"numOfRequest":5824,"errors":81,"OK":5562}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3869863013698631 %
+{"numOfRequest":5840,"errors":81,"OK":5586}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3831967213114753 %
+{"numOfRequest":5856,"errors":81,"OK":5604}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3794277929155314 %
+{"numOfRequest":5872,"errors":81,"OK":5615}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.375679347826087 %
+{"numOfRequest":5888,"errors":81,"OK":5626}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3719512195121952 %
+{"numOfRequest":5904,"errors":81,"OK":5636}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3682432432432434 %
+{"numOfRequest":5920,"errors":81,"OK":5648}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.36455525606469 %
+{"numOfRequest":5936,"errors":81,"OK":5648}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3608870967741935 %
+{"numOfRequest":5952,"errors":81,"OK":5649}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3572386058981234 %
+{"numOfRequest":5968,"errors":81,"OK":5652}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3536096256684493 %
+{"numOfRequest":5984,"errors":81,"OK":5686}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.35 %
+{"numOfRequest":6000,"errors":81,"OK":5716}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.346409574468085 %
+{"numOfRequest":6016,"errors":81,"OK":5739}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3428381962864722 %
+{"numOfRequest":6032,"errors":81,"OK":5746}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3392857142857142 %
+{"numOfRequest":6048,"errors":81,"OK":5746}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3357519788918204 %
+{"numOfRequest":6064,"errors":81,"OK":5747}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3651315789473686 %
+{"numOfRequest":6080,"errors":83,"OK":5772}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3615485564304464 %
+{"numOfRequest":6096,"errors":83,"OK":5800}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3579842931937174 %
+{"numOfRequest":6112,"errors":83,"OK":5815}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3544386422976502 %
+{"numOfRequest":6128,"errors":83,"OK":5828}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3509114583333335 %
+{"numOfRequest":6144,"errors":83,"OK":5853}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3474025974025974 %
+{"numOfRequest":6160,"errors":83,"OK":5866}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3439119170984455 %
+{"numOfRequest":6176,"errors":83,"OK":5883}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3404392764857882 %
+{"numOfRequest":6192,"errors":83,"OK":5891}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3369845360824741 %
+{"numOfRequest":6208,"errors":83,"OK":5899}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.333547557840617 %
+{"numOfRequest":6224,"errors":83,"OK":5913}
+Actual throughput: 8
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.330128205128205 %
+{"numOfRequest":6240,"errors":83,"OK":5937}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3297020185837873 %
+{"numOfRequest":6242,"errors":83,"OK":5955}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3292761050608584 %
+{"numOfRequest":6244,"errors":83,"OK":5956}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3288504642971501 %
+{"numOfRequest":6246,"errors":83,"OK":5957}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3284250960307298 %
+{"numOfRequest":6248,"errors":83,"OK":5962}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.328 %
+{"numOfRequest":6250,"errors":83,"OK":5972}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.327575175943698 %
+{"numOfRequest":6252,"errors":83,"OK":5986}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3271506236008954 %
+{"numOfRequest":6254,"errors":83,"OK":5987}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3267263427109974 %
+{"numOfRequest":6256,"errors":83,"OK":5993}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3263023330137425 %
+{"numOfRequest":6258,"errors":83,"OK":6003}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3258785942492013 %
+{"numOfRequest":6260,"errors":83,"OK":6009}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3254551261577772 %
+{"numOfRequest":6262,"errors":83,"OK":6013}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3250319284802043 %
+{"numOfRequest":6264,"errors":83,"OK":6023}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3246090009575486 %
+{"numOfRequest":6266,"errors":83,"OK":6023}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3241863433312062 %
+{"numOfRequest":6268,"errors":83,"OK":6024}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3237639553429028 %
+{"numOfRequest":6270,"errors":83,"OK":6024}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3392857142857142 %
+{"numOfRequest":6272,"errors":84,"OK":6027}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.33885878227606 %
+{"numOfRequest":6274,"errors":84,"OK":6028}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.338432122370937 %
+{"numOfRequest":6276,"errors":84,"OK":6029}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.33800573431029 %
+{"numOfRequest":6278,"errors":84,"OK":6030}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.337579617834395 %
+{"numOfRequest":6280,"errors":84,"OK":6030}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3371537726838587 %
+{"numOfRequest":6282,"errors":84,"OK":6031}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.336728198599618 %
+{"numOfRequest":6284,"errors":84,"OK":6035}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3363028953229399 %
+{"numOfRequest":6286,"errors":84,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3358778625954197 %
+{"numOfRequest":6288,"errors":84,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3354531001589824 %
+{"numOfRequest":6290,"errors":84,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3350286077558804 %
+{"numOfRequest":6292,"errors":84,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.334604385128694 %
+{"numOfRequest":6294,"errors":84,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3500635324015247 %
+{"numOfRequest":6296,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3496348046999047 %
+{"numOfRequest":6298,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3492063492063493 %
+{"numOfRequest":6300,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3487781656616948 %
+{"numOfRequest":6302,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3483502538071066 %
+{"numOfRequest":6304,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3479226133840787 %
+{"numOfRequest":6306,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3474952441344323 %
+{"numOfRequest":6308,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.347068145800317 %
+{"numOfRequest":6310,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3466413181242078 %
+{"numOfRequest":6312,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3462147608489072 %
+{"numOfRequest":6314,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3457884737175427 %
+{"numOfRequest":6316,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3453624564735676 %
+{"numOfRequest":6318,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3449367088607596 %
+{"numOfRequest":6320,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.3445112306232205 %
+{"numOfRequest":6322,"errors":85,"OK":6044}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.407337128399747 %
+{"numOfRequest":6324,"errors":89,"OK":6064}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4068921909579513 %
+{"numOfRequest":6326,"errors":89,"OK":6064}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.4854614412136535 %
+{"numOfRequest":6328,"errors":94,"OK":6068}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.5323854660347551 %
+{"numOfRequest":6330,"errors":97,"OK":6088}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6266582438408086 %
+{"numOfRequest":6332,"errors":103,"OK":6091}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6261446163561728 %
+{"numOfRequest":6334,"errors":103,"OK":6091}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6256313131313131 %
+{"numOfRequest":6336,"errors":103,"OK":6092}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6251183338592614 %
+{"numOfRequest":6338,"errors":103,"OK":6094}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6246056782334386 %
+{"numOfRequest":6340,"errors":103,"OK":6094}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6240933459476505 %
+{"numOfRequest":6342,"errors":103,"OK":6094}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.6235813366960907 %
+{"numOfRequest":6344,"errors":103,"OK":6094}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6388276079420105 %
+{"numOfRequest":6346,"errors":104,"OK":6097}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.6698172652804033 %
+{"numOfRequest":6348,"errors":106,"OK":6099}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 10 ops/s
+Error total : 1.7952755905511812 %
+{"numOfRequest":6350,"errors":114,"OK":6112}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7947103274559193 %
+{"numOfRequest":6352,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.794145420207743 %
+{"numOfRequest":6354,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7935808684707364 %
+{"numOfRequest":6356,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7930166719094056 %
+{"numOfRequest":6358,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7924528301886793 %
+{"numOfRequest":6360,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7918893429739076 %
+{"numOfRequest":6362,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7913262099308613 %
+{"numOfRequest":6364,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7907634307257305 %
+{"numOfRequest":6366,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7902010050251258 %
+{"numOfRequest":6368,"errors":114,"OK":6113}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.7896389324960755 %
+{"numOfRequest":6370,"errors":114,"OK":6118}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.804770872567483 %
+{"numOfRequest":6372,"errors":115,"OK":6118}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8042045811107625 %
+{"numOfRequest":6374,"errors":115,"OK":6118}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.803638644918444 %
+{"numOfRequest":6376,"errors":115,"OK":6118}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8030730636563186 %
+{"numOfRequest":6378,"errors":115,"OK":6118}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8025078369905956 %
+{"numOfRequest":6380,"errors":115,"OK":6118}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8019429645879035 %
+{"numOfRequest":6382,"errors":115,"OK":6120}
+Actual throughput: 1
+Throughput medio salida: 10 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.8013784461152882 %
+{"numOfRequest":6384,"errors":115,"OK":6126}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.800814281240213 %
+{"numOfRequest":6386,"errors":115,"OK":6133}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9567939887288666 %
+{"numOfRequest":6388,"errors":125,"OK":6153}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.971830985915493 %
+{"numOfRequest":6390,"errors":126,"OK":6163}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9712140175219024 %
+{"numOfRequest":6392,"errors":126,"OK":6165}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9862370972786987 %
+{"numOfRequest":6394,"errors":127,"OK":6170}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 1.9856160100062539 %
+{"numOfRequest":6396,"errors":127,"OK":6170}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.031884964051266 %
+{"numOfRequest":6398,"errors":130,"OK":6170}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.03125 %
+{"numOfRequest":6400,"errors":130,"OK":6170}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0306154326772883 %
+{"numOfRequest":6402,"errors":130,"OK":6170}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0299812617114306 %
+{"numOfRequest":6404,"errors":130,"OK":6170}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0605682172962845 %
+{"numOfRequest":6406,"errors":132,"OK":6173}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0599250936329585 %
+{"numOfRequest":6408,"errors":132,"OK":6173}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0904836193447736 %
+{"numOfRequest":6410,"errors":134,"OK":6184}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.089831565814099 %
+{"numOfRequest":6412,"errors":134,"OK":6184}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0891799189273463 %
+{"numOfRequest":6414,"errors":134,"OK":6184}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0885286783042396 %
+{"numOfRequest":6416,"errors":134,"OK":6190}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.0878778435649736 %
+{"numOfRequest":6418,"errors":134,"OK":6196}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.133956386292835 %
+{"numOfRequest":6420,"errors":137,"OK":6200}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.13329180940517 %
+{"numOfRequest":6422,"errors":137,"OK":6201}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1326276463262763 %
+{"numOfRequest":6424,"errors":137,"OK":6201}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.131963896669779 %
+{"numOfRequest":6426,"errors":137,"OK":6201}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.131300560049782 %
+{"numOfRequest":6428,"errors":137,"OK":6201}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.161741835147745 %
+{"numOfRequest":6430,"errors":139,"OK":6202}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1766169154228856 %
+{"numOfRequest":6432,"errors":140,"OK":6202}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.175940317065589 %
+{"numOfRequest":6434,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.175264139216905 %
+{"numOfRequest":6436,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.174588381484933 %
+{"numOfRequest":6438,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1739130434782608 %
+{"numOfRequest":6440,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.173238124805961 %
+{"numOfRequest":6442,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1725636250775917 %
+{"numOfRequest":6444,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.171889543903196 %
+{"numOfRequest":6446,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1712158808933 %
+{"numOfRequest":6448,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1705426356589146 %
+{"numOfRequest":6450,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1698698078115313 %
+{"numOfRequest":6452,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1691973969631237 %
+{"numOfRequest":6454,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.168525402726146 %
+{"numOfRequest":6456,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.167853824713534 %
+{"numOfRequest":6458,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1671826625387 %
+{"numOfRequest":6460,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.166511915815537 %
+{"numOfRequest":6462,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1658415841584158 %
+{"numOfRequest":6464,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1651716671821837 %
+{"numOfRequest":6466,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1645021645021645 %
+{"numOfRequest":6468,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1638330757341575 %
+{"numOfRequest":6470,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1631644004944377 %
+{"numOfRequest":6472,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.162496138399753 %
+{"numOfRequest":6474,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1618282890673255 %
+{"numOfRequest":6476,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1611608521148504 %
+{"numOfRequest":6478,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1604938271604937 %
+{"numOfRequest":6480,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.159827213822894 %
+{"numOfRequest":6482,"errors":140,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1745835903763107 %
+{"numOfRequest":6484,"errors":141,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1739130434782608 %
+{"numOfRequest":6486,"errors":141,"OK":6203}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1732429099876693 %
+{"numOfRequest":6488,"errors":141,"OK":6213}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.172573189522342 %
+{"numOfRequest":6490,"errors":141,"OK":6215}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1719038817005547 %
+{"numOfRequest":6492,"errors":141,"OK":6215}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1712349861410534 %
+{"numOfRequest":6494,"errors":141,"OK":6217}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1705665024630543 %
+{"numOfRequest":6496,"errors":141,"OK":6217}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.169898430286242 %
+{"numOfRequest":6498,"errors":141,"OK":6218}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.169230769230769 %
+{"numOfRequest":6500,"errors":141,"OK":6218}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.168563518917256 %
+{"numOfRequest":6502,"errors":141,"OK":6218}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1678966789667897 %
+{"numOfRequest":6504,"errors":141,"OK":6218}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.167230249000922 %
+{"numOfRequest":6506,"errors":141,"OK":6221}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.166564228641672 %
+{"numOfRequest":6508,"errors":141,"OK":6223}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.165898617511521 %
+{"numOfRequest":6510,"errors":141,"OK":6223}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.165233415233415 %
+{"numOfRequest":6512,"errors":141,"OK":6223}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1645686214307647 %
+{"numOfRequest":6514,"errors":141,"OK":6225}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1639042357274403 %
+{"numOfRequest":6516,"errors":141,"OK":6225}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.1632402577477756 %
+{"numOfRequest":6518,"errors":141,"OK":6228}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.254601226993865 %
+{"numOfRequest":6520,"errors":147,"OK":6233}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.391904323827047 %
+{"numOfRequest":6522,"errors":156,"OK":6235}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.4984671980380133 %
+{"numOfRequest":6524,"errors":163,"OK":6241}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 2.6662580447441004 %
+{"numOfRequest":6526,"errors":174,"OK":6241}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.048406862745098 %
+{"numOfRequest":6528,"errors":199,"OK":6241}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0474732006125573 %
+{"numOfRequest":6530,"errors":199,"OK":6243}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.046540110226577 %
+{"numOfRequest":6532,"errors":199,"OK":6243}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0456075910621365 %
+{"numOfRequest":6534,"errors":199,"OK":6243}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.044675642594859 %
+{"numOfRequest":6536,"errors":199,"OK":6247}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0437442643010093 %
+{"numOfRequest":6538,"errors":199,"OK":6253}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0428134556574924 %
+{"numOfRequest":6540,"errors":199,"OK":6260}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0418832161418528 %
+{"numOfRequest":6542,"errors":199,"OK":6262}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.040953545232274 %
+{"numOfRequest":6544,"errors":199,"OK":6268}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.040024442407577 %
+{"numOfRequest":6546,"errors":199,"OK":6268}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0390959071472206 %
+{"numOfRequest":6548,"errors":199,"OK":6269}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0381679389312977 %
+{"numOfRequest":6550,"errors":199,"OK":6279}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.037240537240537 %
+{"numOfRequest":6552,"errors":199,"OK":6281}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0363137015563013 %
+{"numOfRequest":6554,"errors":199,"OK":6282}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0353874313605855 %
+{"numOfRequest":6556,"errors":199,"OK":6287}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.034461726136017 %
+{"numOfRequest":6558,"errors":199,"OK":6290}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0335365853658534 %
+{"numOfRequest":6560,"errors":199,"OK":6292}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0326120085339836 %
+{"numOfRequest":6562,"errors":199,"OK":6292}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0469226081657528 %
+{"numOfRequest":6564,"errors":200,"OK":6294}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.045994517209869 %
+{"numOfRequest":6566,"errors":200,"OK":6298}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 9 ops/s
+Error total : 3.0450669914738127 %
+{"numOfRequest":6568,"errors":200,"OK":6298}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0441400304414 %
+{"numOfRequest":6570,"errors":200,"OK":6298}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0432136335970785 %
+{"numOfRequest":6572,"errors":200,"OK":6298}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0422878004259206 %
+{"numOfRequest":6574,"errors":200,"OK":6301}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0413625304136254 %
+{"numOfRequest":6576,"errors":200,"OK":6301}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0404378230465188 %
+{"numOfRequest":6578,"errors":200,"OK":6301}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0395136778115504 %
+{"numOfRequest":6580,"errors":200,"OK":6310}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0537830446672745 %
+{"numOfRequest":6582,"errors":201,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0680437424058327 %
+{"numOfRequest":6584,"errors":202,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.067112055876101 %
+{"numOfRequest":6586,"errors":202,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.066180935033394 %
+{"numOfRequest":6588,"errors":202,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 9 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.065250379362671 %
+{"numOfRequest":6590,"errors":202,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.0643203883495147 %
+{"numOfRequest":6592,"errors":202,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.063390961480134 %
+{"numOfRequest":6594,"errors":202,"OK":6311}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.062462098241358 %
+{"numOfRequest":6596,"errors":202,"OK":6314}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.107002121855108 %
+{"numOfRequest":6598,"errors":205,"OK":6330}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.106060606060606 %
+{"numOfRequest":6600,"errors":205,"OK":6330}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1051196607088762 %
+{"numOfRequest":6602,"errors":205,"OK":6330}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1041792852816474 %
+{"numOfRequest":6604,"errors":205,"OK":6331}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.11837723281865 %
+{"numOfRequest":6606,"errors":206,"OK":6334}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1174334140435835 %
+{"numOfRequest":6608,"errors":206,"OK":6339}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1316187594553706 %
+{"numOfRequest":6610,"errors":207,"OK":6340}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.130671506352087 %
+{"numOfRequest":6612,"errors":207,"OK":6340}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1297248261263984 %
+{"numOfRequest":6614,"errors":207,"OK":6340}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1287787182587663 %
+{"numOfRequest":6616,"errors":207,"OK":6340}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.127833182230281 %
+{"numOfRequest":6618,"errors":207,"OK":6342}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1268882175226587 %
+{"numOfRequest":6620,"errors":207,"OK":6346}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.125943823618242 %
+{"numOfRequest":6622,"errors":207,"OK":6347}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.140096618357488 %
+{"numOfRequest":6624,"errors":208,"OK":6351}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.139148807727136 %
+{"numOfRequest":6626,"errors":208,"OK":6358}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1382015691007847 %
+{"numOfRequest":6628,"errors":208,"OK":6358}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1372549019607843 %
+{"numOfRequest":6630,"errors":208,"OK":6361}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1363088057901085 %
+{"numOfRequest":6632,"errors":208,"OK":6367}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.135363280072354 %
+{"numOfRequest":6634,"errors":208,"OK":6373}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.134418324291742 %
+{"numOfRequest":6636,"errors":208,"OK":6377}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.133473937933112 %
+{"numOfRequest":6638,"errors":208,"OK":6377}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.132530120481928 %
+{"numOfRequest":6640,"errors":208,"OK":6377}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1315868714242696 %
+{"numOfRequest":6642,"errors":208,"OK":6383}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.13064419024684 %
+{"numOfRequest":6644,"errors":208,"OK":6384}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.129702076436955 %
+{"numOfRequest":6646,"errors":208,"OK":6385}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.143802647412756 %
+{"numOfRequest":6648,"errors":209,"OK":6387}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1428571428571432 %
+{"numOfRequest":6650,"errors":209,"OK":6389}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.141912206855081 %
+{"numOfRequest":6652,"errors":209,"OK":6396}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.140967838893898 %
+{"numOfRequest":6654,"errors":209,"OK":6396}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1400240384615383 %
+{"numOfRequest":6656,"errors":209,"OK":6396}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1390808050465604 %
+{"numOfRequest":6658,"errors":209,"OK":6396}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1381381381381384 %
+{"numOfRequest":6660,"errors":209,"OK":6396}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.137196037226058 %
+{"numOfRequest":6662,"errors":209,"OK":6397}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1362545018007206 %
+{"numOfRequest":6664,"errors":209,"OK":6397}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1353135313531353 %
+{"numOfRequest":6666,"errors":209,"OK":6397}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.134373125374925 %
+{"numOfRequest":6668,"errors":209,"OK":6400}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.133433283358321 %
+{"numOfRequest":6670,"errors":209,"OK":6413}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.132494004796163 %
+{"numOfRequest":6672,"errors":209,"OK":6414}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1315552891819 %
+{"numOfRequest":6674,"errors":209,"OK":6414}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1306171360095862 %
+{"numOfRequest":6676,"errors":209,"OK":6414}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.129679544773884 %
+{"numOfRequest":6678,"errors":209,"OK":6414}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.12874251497006 %
+{"numOfRequest":6680,"errors":209,"OK":6414}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.127806046093984 %
+{"numOfRequest":6682,"errors":209,"OK":6414}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.126870137642131 %
+{"numOfRequest":6684,"errors":209,"OK":6419}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1259347891115765 %
+{"numOfRequest":6686,"errors":209,"OK":6423}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.125 %
+{"numOfRequest":6688,"errors":209,"OK":6427}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.12406576980568 %
+{"numOfRequest":6690,"errors":209,"OK":6430}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1231320980274955 %
+{"numOfRequest":6692,"errors":209,"OK":6431}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.122198984164924 %
+{"numOfRequest":6694,"errors":209,"OK":6431}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1212664277180404 %
+{"numOfRequest":6696,"errors":209,"OK":6433}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.120334428187519 %
+{"numOfRequest":6698,"errors":209,"OK":6439}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.119402985074627 %
+{"numOfRequest":6700,"errors":209,"OK":6443}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1184720978812295 %
+{"numOfRequest":6702,"errors":209,"OK":6443}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.117541766109785 %
+{"numOfRequest":6704,"errors":209,"OK":6444}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.116611989263346 %
+{"numOfRequest":6706,"errors":209,"OK":6446}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.115682766845558 %
+{"numOfRequest":6708,"errors":209,"OK":6446}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.114754098360656 %
+{"numOfRequest":6710,"errors":209,"OK":6450}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1138259833134683 %
+{"numOfRequest":6712,"errors":209,"OK":6450}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.112898421209413 %
+{"numOfRequest":6714,"errors":209,"OK":6450}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1119714115544967 %
+{"numOfRequest":6716,"errors":209,"OK":6450}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.111044953855314 %
+{"numOfRequest":6718,"errors":209,"OK":6455}
+Actual throughput: 1
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6459}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6466}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6468}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6469}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6469}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6475}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6476}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6476}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6476}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6478}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6479}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6481}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6483}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6484}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6484}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6484}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6484}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6485}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6486}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6486}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1101190476190474 %
+{"numOfRequest":6720,"errors":209,"OK":6486}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1696428571428568 %
+{"numOfRequest":6720,"errors":213,"OK":6486}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1696428571428568 %
+{"numOfRequest":6720,"errors":213,"OK":6486}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1696428571428568 %
+{"numOfRequest":6720,"errors":213,"OK":6486}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1696428571428568 %
+{"numOfRequest":6720,"errors":213,"OK":6487}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1696428571428568 %
+{"numOfRequest":6720,"errors":213,"OK":6487}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.1696428571428568 %
+{"numOfRequest":6720,"errors":213,"OK":6487}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.199404761904762 %
+{"numOfRequest":6720,"errors":215,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.392857142857143 %
+{"numOfRequest":6720,"errors":228,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.392857142857143 %
+{"numOfRequest":6720,"errors":228,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.407738095238095 %
+{"numOfRequest":6720,"errors":229,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6488}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 8 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 8 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.422619047619048 %
+{"numOfRequest":6720,"errors":230,"OK":6489}
+Throughput medio salida: 7 ops/s
+Throughput medio llegada: 7 ops/s
+Error total : 3.4375000000000004 %
+{"numOfRequest":6720,"errors":231,"OK":6489}

@@ -1,0 +1,218 @@
+16:07:04  ====== [T00.01.00-1_8_1_8_1_8_1-120-PapamoscasElastic-760] ======
+16:07:04     Updating config.json with PapamoscasElastic.
+16:07:04     Restarting.........
+16:09:10         UNDEPLOYED..................
+16:12:16         ALLOCATING.............
+16:14:30         CONFIGURING...
+16:15:01         DEPLOYED.
+16:15:11     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+16:15:11     Start Monitor...OK
+16:15:11     Monitoring...OK
+16:15:12     Executing test...OK
+16:29:15     Stoping monitor...OK
+16:29:16     Getting test data...OK
+16:29:16     Getting test stats...OK
+16:29:16     Shutdown monitor...OK
+16:29:16     Getting Availability...OK
+16:29:17     Cleaning datastore...OK
+16:29:17     Getting summary...OK
+Finish test: T00.01.00-1_8_1_8_1_8_1-120-PapamoscasElastic-760
+16:29:17  ====== [T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElastic-760] ======
+16:29:17     Updating config.json with PapamoscasElastic.
+16:29:18     Restarting.........
+16:31:23         UNDEPLOYED................
+16:34:08         ALLOCATING.....................
+16:37:45         UNDEPLOYED.
+16:37:56         CONFIGURING...
+16:38:27         DEPLOYED.
+16:38:37     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+16:38:37     Start Monitor...OK
+16:38:37     Monitoring...OK
+16:38:37     Executing test...OK
+16:52:44     Stoping monitor...OK
+16:52:44     Getting test data...OK
+16:52:45     Getting test stats...OK
+16:52:45     Shutdown monitor...OK
+16:52:45     Getting Availability...OK
+16:52:45     Cleaning datastore...OK
+16:52:46     Getting summary...OK
+Finish test: T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElastic-760
+16:52:46  ====== [T00.01.02-1_8_1_8_1_8_1-120-PapamoscasElastic-760] ======
+16:52:46     Updating config.json with PapamoscasElastic.
+16:52:46     Restarting.........
+16:54:52         UNDEPLOYED....
+16:55:33         ALLOCATING..............
+16:57:58         CONFIGURING...
+16:58:29         DEPLOYED.
+16:58:39     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+16:58:39     Start Monitor...OK
+16:58:39     Monitoring...OK
+16:58:40     Executing test...OK
+17:12:43     Stoping monitor...OK
+17:12:44     Getting test data...OK
+17:12:44     Getting test stats...OK
+17:12:44     Shutdown monitor...OK
+17:12:44     Getting Availability...OK
+17:12:45     Cleaning datastore...OK
+17:12:45     Getting summary...OK
+Finish test: T00.01.02-1_8_1_8_1_8_1-120-PapamoscasElastic-760
+17:12:45  ====== [T00.01.00-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevel-760] ======
+17:12:45     Updating config.json with PapamoscasElasticOnlyOneLevel.
+17:12:45     Restarting..........
+17:15:03         UNDEPLOYED..
+17:15:24         ALLOCATING................
+17:18:08         CONFIGURING....
+17:18:49         DEPLOYED.
+17:19:00     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+17:19:00     Start Monitor...OK
+17:19:00     Monitoring...OK
+17:19:00     Executing test...OK
+17:33:10     Stoping monitor...OK
+17:33:10     Getting test data...OK
+17:33:10     Getting test stats...OK
+17:33:10     Shutdown monitor...OK
+17:33:10     Getting Availability...OK
+17:33:11     Cleaning datastore...OK
+17:33:11     Getting summary...OK
+Finish test: T00.01.00-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevel-760
+17:33:11  ====== [T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevel-760] ======
+17:33:11     Updating config.json with PapamoscasElasticOnlyOneLevel.
+17:33:12     Restarting.........
+17:35:15         UNDEPLOYED..
+17:35:36         ALLOCATING..................................................................r
+17:47:01         ........
+17:48:48         UNDEPLOYED.....................
+17:52:25         ALLOCATING.............
+17:54:39         STAGING.
+17:54:50         CONFIGURING...
+17:55:21         DEPLOYED.
+17:55:31     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+17:55:31     Start Monitor...OK
+17:55:31     Monitoring...OK
+17:55:32     Executing test...OK
+18:25:43     Stoping monitor...OK
+18:25:43     Getting test data...OK
+18:25:43     Getting test stats...OK
+18:25:43     Shutdown monitor...OK
+18:25:43     Getting Availability...OK
+18:25:44     Cleaning datastore...OK
+18:25:44     Getting summary...OK
+Finish test: T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevel-760
+18:25:45  ====== [T00.01.02-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevel-760] ======
+18:25:45     Updating config.json with PapamoscasElasticOnlyOneLevel.
+18:25:45     Restarting.........
+18:27:45         UNDEPLOYED..
+18:28:06         ALLOCATING.............
+18:30:20         CONFIGURING...
+18:30:51         DEPLOYED.
+18:31:01     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+18:31:02     Start Monitor...OK
+18:31:02     Monitoring...OK
+18:31:02     Executing test...OK
+18:53:40     Stoping monitor...OK
+18:53:40     Getting test data...OK
+18:53:40     Getting test stats...OK
+18:53:40     Shutdown monitor...OK
+18:53:41     Getting Availability...OK
+18:53:41     Cleaning datastore...OK
+18:53:42     Getting summary...OK
+Finish test: T00.01.02-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevel-760
+18:53:42  ====== [T00.01.00-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+18:53:42     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisioned.
+18:53:42     Restarting.........
+18:55:45         UNDEPLOYED.....
+18:56:36         ALLOCATING...............................................................r
+19:07:34         ........
+19:09:22         UNDEPLOYED..........
+19:11:06         ALLOCATING..............
+19:13:30         CONFIGURING....
+19:14:12         DEPLOYED.
+19:14:22     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+19:14:22     Start Monitor...OK
+19:14:22     Monitoring...OK
+19:14:22     Executing test...OK
+19:28:27     Stoping monitor...OK
+19:28:27     Getting test data...OK
+19:28:27     Getting test stats...OK
+19:28:27     Shutdown monitor...OK
+19:28:27     Getting Availability...OK
+19:28:28     Cleaning datastore...OK
+19:28:29     Getting summary...OK
+Finish test: T00.01.00-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760
+19:28:29  ====== [T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+19:28:29     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisioned.
+19:28:29     Restarting.........
+19:30:36         UNDEPLOYED.......
+19:31:48         ALLOCATING.............................................................r
+19:42:25         ........
+19:44:13         UNDEPLOYED....
+19:44:54         ALLOCATING................................................................r
+19:56:03         ........
+19:57:50         UNDEPLOYED...........
+19:59:44         ALLOCATING..............
+20:02:08         STAGING.
+20:02:19         CONFIGURING....
+20:03:00         DEPLOYED.
+20:03:10     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+20:03:13     Start Monitor...OK
+20:03:13     Monitoring...OK
+20:03:16     Executing test...OK
+20:17:22     Stoping monitor...OK
+20:17:23     Getting test data...OK
+20:19:23     Getting test stats...OK
+20:19:23     Shutdown monitor...OK
+20:19:23     Getting Availability...OK
+20:19:25     Cleaning datastore...OK
+20:19:25     Getting summary...OK
+Finish test: T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760
+20:19:25  ====== [T00.01.02-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+20:19:25     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisioned.
+20:19:26     Restarting.........
+20:21:33         UNDEPLOYED.........
+20:23:06         ALLOCATING...........................................................r
+20:33:23         ........
+20:35:11         UNDEPLOYED......................
+20:38:58         ALLOCATING...
+20:39:29         .
+20:39:39         ALLOCATING.................................
+20:45:21         DEPLOYED.
+20:45:31     Creating agreements....
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/templates/2?url=http://antgamdiapc.lsi.us.es:8888/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=basic&agreement=t1>
+             <http://antgamdiapc.lsi.us.es:81/api/v5/agreements?template=pro&agreement=t2>
+20:45:34     Start Monitor...OK
+20:45:34     Monitoring...OK
+20:45:34     Executing test...
