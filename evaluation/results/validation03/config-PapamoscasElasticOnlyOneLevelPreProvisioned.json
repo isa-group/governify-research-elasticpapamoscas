@@ -2,7 +2,7 @@
 {
     "urls": {
         "rsybl": "http://192.1.1.15:8280/rSYBL/",
-        "store": "http://datastore-research-governify.herokuapp.com/api/v5/",
+        "store": "http://150.214.188.130:81/api/v5/",
         "config": "http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/config.txt",
         "mela" : "http://192.1.1.15:8280/MELA-AnalysisService/"
     },

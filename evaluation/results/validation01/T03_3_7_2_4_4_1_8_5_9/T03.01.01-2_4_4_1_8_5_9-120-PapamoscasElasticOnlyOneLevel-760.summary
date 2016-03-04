@@ -1,0 +1,17 @@
+{
+   "infrastructure": "PapamoscasElasticOnlyOneLevel",
+   "name": "T03.01.01",
+   "intervals": "2_4_4_1_8_5_9",
+   "tenant": 2,
+   "duration": "120",
+   "testduration": 899,
+   "costpersecond": 0.0001458620689655187,
+   "cost": 0.1311300000000013,
+   "errorpercentage": 0.014772727272727272,
+   "errors": 117,
+   "oks": 7803,
+   "availability": {
+      "t1": 98.92246388115825,
+      "t2": 98.99835017153215
+   }
+}
