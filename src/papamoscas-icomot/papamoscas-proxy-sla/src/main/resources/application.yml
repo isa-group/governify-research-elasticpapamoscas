@@ -1,0 +1,40 @@
+server:
+ port: 8080
+ 
+urls:
+ rsybl: http://192.1.1.15:8280/rSYBL/ #192.1.1.15
+ store: http://antgamdiapc.lsi.us.es:9997/api/v5/
+ config: http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/config.txt
+ mela: http://192.1.1.15:8180/MELA-AnalysisService/
+ 
+timers:
+ availability: 60 #time in minutes
+ throughput: 30 #time in seconds
+ store: 2 #time in seconds
+ rsybl: 90 #time in seconds
+ config: 5 #time in seconds
+ routing: 2 #time in seconds
+ 
+governanceProperties: 
+
+ levels:
+  - basic
+  - pro
+  
+ service:
+  id: PapamoscasElastic
+  unitTh: 6
+  weight: 0
+  
+ levelElasticityPercentages:
+  pro: 1
+  basic: 0.5
+  
+ defaultRules:
+  basic: DN_ST2:STRATEGY CASE throughput > 140*numberOfVMs #:scaleOut;DN_ST2:STRATEGY CASE throughput <= 140*numberOfVMs-1 #:scaleIn
+  pro: DN_ST2:STRATEGY CASE throughput > 140*numberOfVMs #:scaleOut;DN_ST2:STRATEGY CASE throughput <= 140*numberOfVMs-1 #:scaleIn
+  
+ routerConfig:
+  nextLevel: 0.5
+  backLevel: 0.8
+ 

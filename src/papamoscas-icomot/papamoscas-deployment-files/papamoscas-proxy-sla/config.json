@@ -1,0 +1,38 @@
+
+{
+    "urls": {
+        "rsybl": "http://localhost:8280/rSYBL/",
+        "store": "http://antgamdiapc.lsi.us.es:9997/api/v5/",
+        "config": "http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/config.txt"
+    },
+    "timers": {
+        "availability": 1,
+        "throughput": 30,
+        "store": 2,
+        "rsybl": 180,
+        "config": 5,
+        "routing": 2
+    },
+    "governanceProperties": {
+        "levels": [
+            "basic",
+            "pro"
+        ],
+        "service": {
+            "id": "PapamoscasElastic",
+            "unitTh" : "100"
+        },
+        "levelElasticityPercentages": {
+            "pro": 1,
+            "basic": 0.5
+        },
+        "defaultRules": {
+            "basic": "DN_ST2:STRATEGY CASE numberOfVMs < 1 #:scaleOut;DN_ST2:STRATEGY CASE numberOfVMs > 1 #:scaleIN",
+            "pro": "DN_ST2:STRATEGY CASE numberOfVMs < 2 #:scaleOut;DN_ST2:STRATEGY CASE numberOfVMs > 2 #:scaleIN"
+        },
+        "routerConfig": {
+            "nextLevel": 0.5,
+            "backLevel": 0.8
+        }
+    } 
+}
