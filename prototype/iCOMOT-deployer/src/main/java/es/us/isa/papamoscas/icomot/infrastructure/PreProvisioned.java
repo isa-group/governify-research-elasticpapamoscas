@@ -43,71 +43,71 @@ public class PreProvisioned {
         String platformRepo = "http://10.0.2.15/ppm-icomot/papamoscas-config/";
         String miscRepo = "http://10.0.2.15/papamoscas-config/";
 
-        //define localhost docker 
+        //define localhost docker
         OperatingSystemUnit osDockerPro = OperatingSystemUnit("osDockerPro")
                 .providedBy(LocalDocker()
                 );
-        
-        //define localhost docker 
+
+        //define localhost docker
         OperatingSystemUnit osDockerBasic = OperatingSystemUnit("osDockerBasic")
                 .providedBy(LocalDocker()
                 );
-        
-        //define localhost docker 
+
+        //define localhost docker
         OperatingSystemUnit osDockerCassandra = OperatingSystemUnit("osDockerCassandra")
                 .providedBy(LocalDocker()
                 );
      ///////////////////////////////////////////////////////////////////////////////////////////////////////
      //////////////////////////////////////////////////////////////////////////////////////////////////////
        //////////////////////////////////////////////////////////////////////////////////////////////////
-        
+
         //need to specify details of VM and operating system to deploy the software servide units on
         DockerUnit papamoscasBasicAPIVM = DockerUnit("PapamoscasBasicAPIVM")
                 .providedBy(DockerDefault()
                 		.addSoftwarePackage("openjdk-7-jre ganglia-monitor gmetad")
-                		
+
                 ).withMaxColocatedInstances(5);
-        
+
         DockerUnit papamoscasBasicProxyVM = DockerUnit("PapamoscasBasicProxyVM")
                 .providedBy(DockerDefault()
                 		.addSoftwarePackage("openjdk-7-jre ganglia-monitor gmetad")
-                		
+
                 );
-        
+
         DockerUnit papamoscasSLAProxyVM = DockerUnit("PapamoscasSLAProxyVM")
                 .providedBy(DockerDefault()
                 		.addSoftwarePackage("openjdk-7-jre ganglia-monitor gmetad")
-                		
+
                 );
       //need to specify details of VM and operating system to deploy the software servide units on
 //        DockerUnit papamoscasProAPIVM = DockerUnit("PapamoscasProAPIVM")
 //                .providedBy(DockerDefault()
 //                		.addSoftwarePackage("openjdk-7-jre ganglia-monitor gmetad")
-//                		
+//
 //                );
-//        
+//
 //        DockerUnit papamoscasProProxyVM = DockerUnit("PapamoscasProProxyVM")
 //                .providedBy(DockerDefault()
 //                		.addSoftwarePackage("openjdk-7-jre ganglia-monitor gmetad")
-//                		
+//
 //                );
-        
+
         DockerUnit cassandraVM = DockerUnit("cassandraUnitVM")
                 .providedBy(DockerDefault()
                 		.addSoftwarePackage("openjdk-7-jre ganglia-monitor gmetad")
-                		
+
                 );
 
         //start with Data End, and first with Data Controller
         ElasticityCapability papamoscasAPIUnitScaleIn = ElasticityCapability.ScaleIn();
         ElasticityCapability papamoscasAPIUnitScaleOut = ElasticityCapability.ScaleOut();
-        
+
         ServiceUnit papamoscasBasicAPIUnit = SingleSoftwareUnit("papamoscasBasicAPIUnit")
-                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra        		
+                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra
                 //.deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-api-basic/deploy.sh"))
                 .deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-spring-boot/deploy.sh"))
                 .deployedBy(MiscArtifact(platformRepo + "papamoscas-spring-boot/papamoscas-spring-boot.tar.gz"))
-                //data controller exposed its IP 
+                //data controller exposed its IP
                 .exposes(Capability.Variable("papamoscasAPI_IP_information"))
         		.requires(Requirement.Variable("papamoscasProxy_IP_Req").withName("requiringpapamoscasProxyIP"))
         		.requires(Requirement.Variable("papamoscasBasicAPIUnit_cassandraUnit_IP_Req").withName("databaseIP"))
@@ -124,17 +124,17 @@ public class PreProvisioned {
         		.withLifecycleAction(LifecyclePhase.STOP, BASHAction("sudo bash /tmp/undeploy.sh"))
                 .withMaxColocatedInstances(1)
                 .withMinInstances(5);
-        
+
         //start with Data End, and first with Data Controller
 //        ElasticityCapability papamoscasProAPIUnitScaleIn = ElasticityCapability.ScaleIn();
 //        ElasticityCapability papamoscasProAPIUnitScaleOut = ElasticityCapability.ScaleOut();
-//        
+//
 //        ServiceUnit papamoscasProAPIUnit = SingleSoftwareUnit("papamoscasProAPIUnit")
-//                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra        		
+//                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra
 //                //.deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-api-basic/deploy.sh"))
 //                .deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-spring-boot/deploy.sh"))
 //                .deployedBy(MiscArtifact(platformRepo + "papamoscas-spring-boot/papamoscas-spring-boot.tar.gz"))
-//                //data controller exposed its IP 
+//                //data controller exposed its IP
 //                .exposes(Capability.Variable("papamoscasProAPI_IP_information"))
 //        		.requires(Requirement.Variable("papamoscasProProxy_IP_Req"))
 //        		.requires(Requirement.Variable("papamoscasProAPIUnit_cassandraUnit_IP_Req"))
@@ -151,47 +151,47 @@ public class PreProvisioned {
 //        		.withLifecycleAction(LifecyclePhase.STOP, BASHAction("sudo bash /tmp/undeploy.sh"))
 //                .withMinInstances(2)
 //                .withMaxColocatedInstances(1);
-        
+
         ServiceUnit papamoscasBasicProxyUnit = SingleSoftwareUnit("papamoscasBasicProxyUnit")
-                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra 
-        		
+                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra
+
         		.deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-proxy/deploy-basic.sh"))
                 .deployedBy(MiscArtifact(platformRepo + "papamoscas-proxy/papamoscas-proxy.war"))
-                //data controller exposed its IP 
+                //data controller exposed its IP
                 .exposes(Capability.Variable("papamoscasProxy_IP_information"))
                 .requires(Requirement.Variable("papamoscasBasicProxy_papamoscasSLAProxy_IP_Req"));
-        
+
 //        ServiceUnit papamoscasProProxyUnit = SingleSoftwareUnit("papamoscasProProxyUnit")
-//                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra 
-//        		
+//                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra
+//
 //        		.deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-proxy/deploy-pro.sh"))
 //                .deployedBy(MiscArtifact(platformRepo + "papamoscas-proxy/papamoscas-proxy.war"))
-//                //data controller exposed its IP 
+//                //data controller exposed its IP
 //                .exposes(Capability.Variable("papamoscasProProxy_IP_information"))
 //                .requires(Requirement.Variable("papamoscasProProxy_papamoscasSLAProxy_IP_Req"));
-        
+
         ServiceUnit papamoscasSLAProxyUnit = SingleSoftwareUnit("papamoscasSLAProxyUnit")
-                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra 
-        		
+                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra
+
         		.deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-proxy-sla/deploy.sh"))
                 .deployedBy(MiscArtifact(platformRepo + "papamoscas-proxy-sla/papamoscas-proxy-sla.tar.gz"))
-                //data controller exposed its IP 
+                //data controller exposed its IP
                 .exposes(Capability.Variable("papamoscasSLAProxy_IP_information"));
-        
+
         ServiceUnit cassandraUnit = SingleSoftwareUnit("cassandraUnit")
-                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra 
-        		
+                //software artifacts needed for unit deployment   = software artifact archive and script to deploy Cassandra
+
         		.deployedBy(SingleScriptArtifact(platformRepo + "papamoscas-cassandra/deploy.sh"))
                 .deployedBy(MiscArtifact(platformRepo + "papamoscas-cassandra/apache-cassandra-2.2.1.tar.gz"))
-                //data controller exposed its IP 
+                //data controller exposed its IP
                 .exposes(Capability.Variable("cassandraUnit_IP_information"));
 
         ServiceTopology papamoscasTopology = ServiceTopology("papamoscasTopology")
-                .withServiceUnits(osDockerBasic,papamoscasBasicAPIVM, papamoscasBasicProxyVM, papamoscasSLAProxyVM, cassandraVM, 
+                .withServiceUnits(osDockerBasic,papamoscasBasicAPIVM, papamoscasBasicProxyVM, papamoscasSLAProxyVM, cassandraVM,
                 		cassandraUnit, papamoscasBasicAPIUnit, papamoscasBasicProxyUnit, papamoscasSLAProxyUnit);
 
         //describe the service template which will hold more topologies
-        CloudService serviceTemplate = ServiceTemplate("PapamoscasElasticOnlyOneLevelPreProvisioned")
+        CloudService serviceTemplate = ServiceTemplate("PreProvisioned")
                 .consistsOfTopologies(papamoscasTopology)
                 //defining CONNECT_TO and HOSTED_ON relationships
                 .andRelationships(
@@ -239,7 +239,7 @@ public class PreProvisioned {
                         HostedOnRelation("papamoscasSLAProxyToLaptop")
                         .from(papamoscasSLAProxyVM)
                         .to(osDockerBasic),
-                        
+
                         //software hosted
                         HostedOnRelation("papamoscasAPIUnitToVM")
                         .from(papamoscasBasicAPIUnit)
@@ -259,7 +259,7 @@ public class PreProvisioned {
                         HostedOnRelation("cassandraUnitToVM")
                         .from(cassandraUnit)
                         .to(cassandraVM)
-                        
+
                 )
                 .withDefaultMetrics();
 
