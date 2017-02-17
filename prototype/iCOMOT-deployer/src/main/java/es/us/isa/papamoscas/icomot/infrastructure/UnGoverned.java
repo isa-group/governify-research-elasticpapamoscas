@@ -42,8 +42,8 @@ public class UnGoverned {
 
     	Map<Arg, String> argsMap = ProcessArgs.processArgs(args);
     	
-        String platformRepo = "http://" + argsMap.get("INTERNAL_IP") + "/ppm-icomot/papamoscas-config/";
-        String miscRepo = "http://" + argsMap.get("INTERNAL_IP") + "/papamoscas-config/";
+        String platformRepo = "http://" + argsMap.get(Arg.INTERNAL_IP) + "/ppm-icomot/papamoscas-config/";
+        String miscRepo = "http://" + argsMap.get(Arg.INTERNAL_IP) + "/papamoscas-config/";
 
         //define localhost docker
         OperatingSystemUnit osDockerPro = OperatingSystemUnit("osDockerPro")
