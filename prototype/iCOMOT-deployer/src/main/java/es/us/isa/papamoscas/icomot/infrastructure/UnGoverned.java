@@ -40,8 +40,10 @@ public class UnGoverned {
     public static void main(String[] args) {
         //specify service units in terms of software
 
-        String platformRepo = "http://10.0.2.15/ppm-icomot/papamoscas-config/";
-        String miscRepo = "http://10.0.2.15/papamoscas-config/";
+    	Map<Arg, String> argsMap = ProcessArgs.processArgs(args);
+    	
+        String platformRepo = "http://" + argsMap.get("INTERNAL_IP") + "/ppm-icomot/papamoscas-config/";
+        String miscRepo = "http://" + argsMap.get("INTERNAL_IP") + "/papamoscas-config/";
 
         //define localhost docker
         OperatingSystemUnit osDockerPro = OperatingSystemUnit("osDockerPro")
@@ -265,7 +267,6 @@ public class UnGoverned {
         iCOMOTOrchestrator orchestrator = new iCOMOTOrchestrator("localhost");
         // added to make it easier to run as jar from cmd line
         {
-            Map<Arg, String> argsMap = ProcessArgs.processArgs(args);
             for (Arg key : argsMap.keySet()) {
                 switch (key) {
                     case ORCHESTRATOR_IP:

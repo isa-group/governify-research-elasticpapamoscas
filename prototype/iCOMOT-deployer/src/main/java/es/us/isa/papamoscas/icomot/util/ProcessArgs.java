@@ -7,7 +7,7 @@ public class ProcessArgs {
 	public enum Arg {
 		ORCHESTRATOR_IP("iCOMOT_IP"), SALSA_PORT("SALSA_PORT"), SALSA_IP(
 				"SALSA_IP"), rSYBL_IP("rSYBL_IP"), rSYBL_PORT("rSYBL_PORT"), GovOps_PORT(
-				"GovOps_PORT"), GovOps_IP("GovOps_IP");
+				"GovOps_PORT"), GovOps_IP("GovOps_IP"), INTERNAL_IP("INTERNAL_IP");
 
 		private String arg;
 
@@ -43,6 +43,8 @@ public class ProcessArgs {
 						argsMap.put(Arg.GovOps_PORT, argVal);
 					} else if(argKey.equals(Arg.GovOps_IP.toString())){
 						argsMap.put(Arg.GovOps_IP, argVal);
+					}else if(argKey.equals(Arg.INTERNAL_IP.toString())){
+						argsMap.put(Arg.INTERNAL_IP, argVal);
 					}
 				}
 			}
