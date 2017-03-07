@@ -4,7 +4,7 @@ server:
 urls:
  rsybl: http://192.1.1.15:8280/rSYBL/ #192.1.1.15
  store: http://datastore-research-governify.herokuapp.com/api/v5/
- config: http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/config.txt
+ config: http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/config-v2.json
  mela: http://192.1.1.15:8180/MELA-AnalysisService/
  
 timers:

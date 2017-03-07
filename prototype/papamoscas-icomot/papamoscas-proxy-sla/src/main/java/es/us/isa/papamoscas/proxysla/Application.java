@@ -1,6 +1,5 @@
 package es.us.isa.papamoscas.proxysla;
 
-
 import java.io.IOException;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -26,68 +25,66 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import es.us.isa.papamoscas.proxysla.config.ConfigDTO;
+import es.us.isa.papamoscas.proxysla.config.NewConfigDTO;
 
 @ComponentScan
 @EnableAutoConfiguration
 @SpringBootApplication
 public class Application {
-	
-	@Autowired
+
+    @Autowired
     private static Environment env;
-		
-	private static final Logger log = LoggerFactory.getLogger(Application.class);
-	
-	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
-		env = SpringApplication.run(Application.class, args).getEnvironment();
-		
-		Timer updateConfig =  new Timer(true);
-		updateConfig.scheduleAtFixedRate(new TimerTask() {
-			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				try{
-					log.info("Getting config from: " + env.getProperty("urls.config"));
-					
-					RestTemplate rest = new RestTemplate();
-					rest.getMessageConverters().add(new StringHttpMessageConverter());
-					
-					if(env.getProperty("urls.config") != null){
-						String configDto = rest.getForObject(env.getProperty("urls.config"),  String.class);
-						
-						ObjectMapper mapper = new ObjectMapper();
-						ConfigDTO dto = mapper.readValue(configDto, ConfigDTO.class);
-						
-						@SuppressWarnings("unused")
-						ResponseEntity<ConfigDTO> ret = rest.postForEntity("http://localhost:" + env.getProperty("server.port") + "/configs", dto, ConfigDTO.class);
-					}
-				}catch(Exception e){
-					e.printStackTrace();
-				}
-			}
-		}, 0 , new Integer(env.getProperty("timers.config")) * 1000);
-		
-	}
-	
+
+    private static final Logger log = LoggerFactory.getLogger(Application.class);
+
+    public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
+        env = SpringApplication.run(Application.class, args).getEnvironment();
+
+        Timer updateConfig = new Timer(true);
+        updateConfig.scheduleAtFixedRate(new TimerTask() {
+
+            @Override
+            public void run() {
+                // TODO Auto-generated method stub
+                try {
+                    log.info("Getting config from: " + env.getProperty("urls.config"));
+
+                    RestTemplate rest = new RestTemplate();
+                    rest.getMessageConverters().add(new StringHttpMessageConverter());
+
+                    if (env.getProperty("urls.config") != null) {
+                        String configDto = rest.getForObject(env.getProperty("urls.config"), String.class);
+
+                        ObjectMapper mapper = new ObjectMapper();
+                        NewConfigDTO dto = mapper.readValue(configDto, NewConfigDTO.class);
+                        @SuppressWarnings("unused")
+                        ResponseEntity<NewConfigDTO> ret = rest.postForEntity("http://localhost:" + env.getProperty("server.port") + "/configs", dto, NewConfigDTO.class);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, 0, new Integer(env.getProperty("timers.config")) * 1000);
+
+    }
+
 // CONFIGURE TOMCAT TO ACCEPT A NUMBER OF CONNECTIONS
-	@Bean
-	public EmbeddedServletContainerFactory servletContainer() {
-	    TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory();	
-	    
-	    tomcat.addConnectorCustomizers(new TomcatConnectorCustomizer() {
-			
-			@Override
-			public void customize(Connector arg0) {
-				arg0.setAttribute("acceptCount", 100000);
-				arg0.setAttribute("maxConnections", 100000);
-				arg0.setAttribute("maxThreads", 1000);
-			}
-			
-		});
-	    
-	    return tomcat;
-	}
-	
-	
+    @Bean
+    public EmbeddedServletContainerFactory servletContainer() {
+        TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory();
+
+        tomcat.addConnectorCustomizers(new TomcatConnectorCustomizer() {
+
+            @Override
+            public void customize(Connector arg0) {
+                arg0.setAttribute("acceptCount", 100000);
+                arg0.setAttribute("maxConnections", 100000);
+                arg0.setAttribute("maxThreads", 1000);
+            }
+
+        });
+
+        return tomcat;
+    }
+
 }
