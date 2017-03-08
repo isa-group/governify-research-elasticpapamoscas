@@ -9,64 +9,65 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "governanceProperties")
 public class GovernanceConfig {
-	
-	private  List<String> levels;
-	
-	private Map<String, String> service;
-	
-	private Map<String, Double> levelElasticityPercentages;
-	
-	private Map<String, String> defaultRules;
-	
-	private Map<String, Double> routerConfig;
-	
-	public GovernanceConfig(){
-		
-	}
 
-	public Map<String, String> getService() {
-		return service;
-	}
+    private List<String> levels;
 
-	public void setService(Map<String, String> service) {
-		this.service = service;
-	}
+    private Map<String, String> service;
 
-	public List<String> getLevels() {
-		return levels;
-	}
+    private Map<String, Double> levelElasticityPercentages;
 
-	public void setLevels(List<String> levels) {
-		this.levels = levels;
-	}
+    private Map<String, String> defaultRules;
 
-	public Map<String, Double> getLevelElasticityPercentages() {
-		return levelElasticityPercentages;
-	}
+    private Map<String, Double> routerConfig;
 
-	public void setLevelElasticityPercentages(
-			Map<String, Double> levelElasticityPercentages) {
-		this.levelElasticityPercentages = levelElasticityPercentages;
-	}
+    public GovernanceConfig() {
 
-	public Map<String, String> getDefaultRules() {
-		return defaultRules;
-	}
+    }
 
-	public void setDefaultRules(Map<String, String> defaultRules) {
-		this.defaultRules = defaultRules;
-	}
+    public Map<String, String> getService() {
+        return service;
+    }
 
-	public Map<String, Double> getRouterConfig() {
-		return routerConfig;
-	}
+    public void setService(Map<String, String> service) {
+        this.service = service;
+    }
 
-	public void setRouterConfig(Map<String, Double> routerConfig) {
-		this.routerConfig = routerConfig;
-	}
+    public List<String> getLevels() {
+        return levels;
+    }
 
-	
-	
+    public void setLevels(List<String> levels) {
+        this.levels = levels;
+    }
 
-	
+    public Map<String, Double> getLevelElasticityPercentages() {
+        return levelElasticityPercentages;
+    }
+
+    public void setLevelElasticityPercentages(
+            Map<String, Double> levelElasticityPercentages) {
+        this.levelElasticityPercentages = levelElasticityPercentages;
+    }
+
+    public Map<String, String> getDefaultRules() {
+        return defaultRules;
+    }
+
+    public void setDefaultRules(Map<String, String> defaultRules) {
+        this.defaultRules = defaultRules;
+    }
+
+    public Map<String, Double> getRouterConfig() {
+        return routerConfig;
+    }
+
+    public void setRouterConfig(Map<String, Double> routerConfig) {
+        this.routerConfig = routerConfig;
+    }
+
+    @Override
+    public String toString() {
+        return "GovernanceConfig{" + "levels=" + levels + ", service=" + service + ", levelElasticityPercentages=" + levelElasticityPercentages + ", defaultRules=" + defaultRules + ", routerConfig=" + routerConfig + '}';
+    }
+
 }
