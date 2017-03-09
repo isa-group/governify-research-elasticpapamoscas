@@ -7,6 +7,7 @@ sleep 10s
 
 . /etc/environment
 
+LEVEL=$(ls .. | grep proxy | cut -d_ -f2 | cut -d. -f1)
 
 MY_IP=$(ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}')
 echo $MY_IP
@@ -16,8 +17,8 @@ then
 	slaProxy_IP=$slaProxy_IP
 fi
 
-echo http://$slaProxy_IP:8080/registry/basic?ip=$MY_IP:8080
-curl -X POST http://$slaProxy_IP:8080/registry/basic?ip=$MY_IP:8080
+echo http://$slaProxy_IP:8080/registry/$LEVEL?ip=$MY_IP:8080
+curl -X POST http://$slaProxy_IP:8080/registry/$LEVEL?ip=$MY_IP:8080
 
 java -jar papamoscas-proxy.war &> /tmp/proxy-sla.log &
 
