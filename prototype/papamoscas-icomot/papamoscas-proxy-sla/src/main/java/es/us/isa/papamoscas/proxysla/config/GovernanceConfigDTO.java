@@ -13,7 +13,7 @@ public class GovernanceConfigDTO {
 	
 	private Map<String, String> defaultRules;
 	
-	private Map<String, Double> routerConfig;
+	private Map<String,Map<String,Double>> routerConfig;
 	
 	public GovernanceConfigDTO(){
 		
@@ -52,11 +52,11 @@ public class GovernanceConfigDTO {
 		this.defaultRules = defaultRules;
 	}
 
-	public Map<String, Double> getRouterConfig() {
+	public Map<String, Map<String,Double>> getRouterConfig() {
 		return routerConfig;
 	}
 
-	public void setRouterConfig(Map<String, Double> routerConfig) {
+	public void setRouterConfig(Map<String, Map<String,Double>> routerConfig) {
 		this.routerConfig = routerConfig;
 	}
 

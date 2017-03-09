@@ -35,6 +35,10 @@ governanceProperties:
   pro: DN_ST2:STRATEGY CASE throughput > 140*numberOfVMs #:scaleOut;DN_ST2:STRATEGY CASE throughput <= 140*numberOfVMs-1 #:scaleIn
   
  routerConfig:
-  nextLevel: 0.5
-  backLevel: 0.8
+  basic:
+    nextLevel: 0.5
+    backLevel: 0.8
+  pro:
+    nextLevel: 0.5
+    backLevel: 0.8
  

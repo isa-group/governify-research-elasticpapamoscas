@@ -44,30 +44,24 @@ public class ConfigResource {
             Map<String, Double> elasticity = new HashMap<>();
             Map<String, String> defaultRules = new HashMap<>();
             Map<String, String> service = new HashMap<>();
-            Map<String, Double> routerConfig = new HashMap<>();
+            Map<String, Map<String, Double>> routerConfig = new HashMap<>();
 
             Double maxElasticity = config.getElasticitySpeed().getMax();
             Double minElasticity = config.getElasticitySpeed().getMin();
             Integer level = config.getLevels();
-            Double[] distribution = new Double[level];
-
-            distribution[0] = minElasticity;
-            //generate distribution array
-            if (level > 0) {
-                Double difference = (maxElasticity - minElasticity);
-                Double factor = difference / (level - 1);
-                distribution[distribution.length - 1] = maxElasticity;
-                //fill array
-                for (int i = 1; i <= (level - 2); i++) {
-                    distribution[i] = minElasticity + factor;
-                }
-            }
-
+            Double[] distributionLevel = getDistribution(level, minElasticity, maxElasticity);
+            Double[] distributionNextLevel = getDistribution(level, config.getUpRiseSpeed().getMin(), config.getUpRiseSpeed().getMax());
+            Double[] distributionBackLevel = getDistribution(level, config.getDownRiseSpeed().getMin(), config.getDownRiseSpeed().getMax());
+                
             for (int i = 0; i < level; i++) {
-                String tag = "L" + (i < 10 ? "0" : "") + i;
+                Map<String, Double> levelRouter = new HashMap<>();
+                levelRouter.put("nextLevel",distributionNextLevel[i]);
+                levelRouter.put("backLevel",distributionBackLevel[i]);
+                String tag = "l" + (i < 10 ? "0" : "") + i;
                 levels.add(tag);
-                elasticity.put(tag, distribution[i]);
+                elasticity.put(tag, distributionLevel[i]);
                 defaultRules.put(tag, config.getElasticityRules().getOf());
+                routerConfig.put(tag, levelRouter);
 
             }
 
@@ -75,16 +69,13 @@ public class ConfigResource {
             service.put("scalable", "true");
             service.put("unitTh", "8");
             service.put("weight", "0");
-            routerConfig.put("nextLevel", config.getUpRiseSpeed().getMin());
-            routerConfig.put("backLevel", config.getUpRiseSpeed().getMax());
+           
 
             governConfig.setLevels(levels);
             governConfig.setService(service);
             governConfig.setLevelElasticityPercentages(elasticity);
             governConfig.setDefaultRules(defaultRules);
             governConfig.setRouterConfig(routerConfig);
-
-            System.out.println(governConfig);
             /*
             
             //UPDATE GENERAL CONFIG
@@ -100,6 +91,23 @@ public class ConfigResource {
             return new ResponseEntity<NewConfigDTO>(HttpStatus.BAD_REQUEST);
         }
 
+    }
+
+    private static Double[] getDistribution(Integer level, Double min, Double max) {
+        Double[] dis = new Double[level];
+
+        dis[0] = min;
+        //generate distribution array
+        if (level > 0) {
+            Double difference = (max - min);
+            Double factor = difference / (level - 1);
+            dis[dis.length - 1] = max;
+            //fill array
+            for (int i = 1; i <= (level - 2); i++) {
+                dis[i] = min + factor;
+            }
+        }
+        return dis;
     }
 
     /* ----------GET---------- */
