@@ -98,12 +98,12 @@ public class GovernanceController {
 
                         for (String level : throughputINPerLevel.keySet()) {
 
-                            String mayuscula = level.charAt(0) + "";
-                            mayuscula = mayuscula.toUpperCase();
-                            level = level.replaceFirst(level.charAt(0) + "", mayuscula);
+                           // String mayuscula = level.charAt(0) + "";
+                           // mayuscula = mayuscula.toUpperCase();
+                           // level = level.replaceFirst(level.charAt(0) + "", mayuscula);
 
                             for (ServiceUnit su : cs.getServiceTopology().getServiceUnits()) {
-                                if (su.getId().contains(level + "API")) {
+                                if (su.getId().contains("api_" + level)) {
 
                                     String levell = level.toLowerCase();
                                     Integer in = throughputINPerLevel.get(levell);
@@ -111,7 +111,7 @@ public class GovernanceController {
                                     Integer unitTh = new Integer(governConfig.getService().get("unitTh"));
                                     Double weight = governConfig.getLevelElasticityPercentages().get(levell);
 
-                                    Double M_q = unitTh * (1 + weight);
+                                    Double M_q = unitTh * (1 - weight);
 
                                     String scaleOut = "";
                                     String scaleIN = "";

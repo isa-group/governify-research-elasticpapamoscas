@@ -4,13 +4,32 @@ public class NewConfigDTO {
 	
 	private DownRiseSpeed downRiseSpeed;
 	private ElasticityRules elasticityRules;
-        private ElasticitySpeed elasticitySpeed;
-        private String id;
-        private Integer levels;
-        private UpRiseSpeed upRiseSpeed;
-        private InitialInstances initialInstances;
+    private ElasticitySpeed elasticitySpeed;
+    private String id;
+    private Integer levels;
+    private UpRiseSpeed upRiseSpeed;
+    private InitialInstances initialInstances;
+    private Boolean updateElasticity;
+    private Integer instanceLimit;
 
-    public void setInitialInstances(InitialInstances initialInstances) {
+    
+    public Boolean getUpdateElasticity() {
+		return updateElasticity;
+	}
+
+	public void setUpdateElasticity(Boolean updateElasticity) {
+		this.updateElasticity = updateElasticity;
+	}
+
+	public Integer getInstanceLimit() {
+		return instanceLimit;
+	}
+
+	public void setInstanceLimit(Integer instanceLimit) {
+		this.instanceLimit = instanceLimit;
+	}
+
+	public void setInitialInstances(InitialInstances initialInstances) {
         this.initialInstances = initialInstances;
     }
 
@@ -70,7 +89,7 @@ public class NewConfigDTO {
     public String toString() {
         return "NewConfigDTO{" + "downRiseSpeed=" + downRiseSpeed + ", elasticityRules=" + elasticityRules + ", elasticitySpeed=" + elasticitySpeed + ", id=" + id + ", levels=" + levels + ", upRiseSpeed=" + upRiseSpeed + ", initialInstances=" + initialInstances + '}';
     }
-	
+		
 	
 	
 	

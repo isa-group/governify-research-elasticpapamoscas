@@ -57,8 +57,8 @@ public class RouterRepository {
 	
 	public String getLevelForUser (String user){
 		if(!routingTable.containsKey(user)){
-			RouterRepository.routingTable.put(user, "basic");
-			RouterRepository.assignmentTable.put(user, "basic");
+			RouterRepository.routingTable.put(user, "l00");
+			RouterRepository.assignmentTable.put(user, "l00");
 		}
 		
 		return RouterRepository.routingTable.get(user);
@@ -86,7 +86,7 @@ public class RouterRepository {
 	
 	public String getAssignedLevelForUser (String user){
 		if(!assignmentTable.containsKey(user))
-			RouterRepository.assignmentTable.put(user, "basic");
+			RouterRepository.assignmentTable.put(user, "l00");
 		
 		return RouterRepository.assignmentTable.get(user);
 	}

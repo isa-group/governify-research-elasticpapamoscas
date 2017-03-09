@@ -40,7 +40,7 @@ public class ConfigResource {
                 return new ResponseEntity<NewConfigDTO>(HttpStatus.BAD_REQUEST);
             }
 
-            List levels = new ArrayList();
+            List<String> levels = new ArrayList<String>();
             Map<String, Double> elasticity = new HashMap<>();
             Map<String, String> defaultRules = new HashMap<>();
             Map<String, String> service = new HashMap<>();
@@ -66,8 +66,8 @@ public class ConfigResource {
             }
 
             service.put("id", config.getId());
-            service.put("scalable", "true");
-            service.put("unitTh", "8");
+            service.put("scalable", config.getUpdateElasticity().toString());
+            service.put("unitTh", config.getInstanceLimit().toString());
             service.put("weight", "0");
            
 
