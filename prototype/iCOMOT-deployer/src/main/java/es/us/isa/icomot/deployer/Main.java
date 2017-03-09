@@ -123,7 +123,7 @@ public class Main {
 				/** Add requirements **/
 				
 				for(String s : c.getRequires()){
-					serviceUnit_aux = serviceUnit_aux.requires(Requirement.Variable(s + "_IP_Req").withName(s));
+					serviceUnit_aux = serviceUnit_aux.requires(Requirement.Variable(c.getId() + "_" + s + "_IP_Req").withName(c.getId() + "_" + s));
 				}
 				
 				/** If elasticity = true then it prepares EslasticityCapability **/
@@ -165,7 +165,7 @@ public class Main {
 					serviceTemplate.andRelationships(
 						ConnectToRelation(c.getId() + "To" + s)
 	                        .from(serviceunits.get(s).getContext().get(s + "_IP_information"))
-	                        .to(serviceunits.get(c.getId()).getContext().get(s + "_IP_Req")) //specify which software unit goes to which VM
+	                        .to(serviceunits.get(c.getId()).getContext().get(c.getId() + "_" + s + "_IP_Req")) //specify which software unit goes to which VM
 					);
 				}
 				
