@@ -17,7 +17,7 @@ eval "sed -i 's/send_metadata_interval.*/send_metadata_interval = 30/' /etc/gang
 sudo -S service ganglia-monitor restart
 
 cd ./gangliaPlugIns
-./setupPlugIns.sh
+sudo -S ./setupPlugIns.sh
 sudo -S service ganglia-monitor restart
 
 exit 0
