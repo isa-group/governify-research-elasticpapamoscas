@@ -7,22 +7,18 @@ sudo apt-get -y install curl
 
 sleep 10s
 
+LEVEL=$(ls .. | grep api | cut -d_ -f3 | cut -d. -f1)
+
 MY_IP=$(ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}')
 echo $MY_IP
 
-if [ -z "$proxy_IP" ]
-then
-	proxy_IP=$proxyPro_IP
-fi
+NAME=$(echo proxy_"$LEVEL"_IP)
 
-#echo http://$proxy_IP:8080/registry?ip=$MY_IP:8080
-#curl -X POST http://$proxy_IP:8080/registry?ip=$MY_IP:8080
+PROXY_IP=$(eval "echo \$$NAME")
 
-echo "curl -X DELETE http://$proxy_IP:8080/registry?ip=$MY_IP:8080" >> /tmp/undeploy.sh
+echo ". /etc/environment" >> /tmp/undeploy.sh
+echo "curl -X DELETE http://$PROXY_IP:8080/registry?ip=$MY_IP:8080" >> /tmp/undeploy.sh
 
-echo "cassandra_IP: " 
-
-echo "#IP cassandra" >> /etc/hosts
 
 java -jar papamoscas-spring-boot.war &> /tmp/proxy-sla.log &
 
