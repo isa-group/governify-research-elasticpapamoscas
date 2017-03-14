@@ -39,7 +39,9 @@ public class ConfigResource {
             if (config == null) {
                 return new ResponseEntity<NewConfigDTO>(HttpStatus.BAD_REQUEST);
             }
-
+            
+            generalConfig.getUrls().put("config", "http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/" + config.getTestId() + "-config-v2.json");
+            
             List<String> levels = new ArrayList<String>();
             Map<String, Double> elasticity = new HashMap<>();
             Map<String, Double> instances = new HashMap<>();

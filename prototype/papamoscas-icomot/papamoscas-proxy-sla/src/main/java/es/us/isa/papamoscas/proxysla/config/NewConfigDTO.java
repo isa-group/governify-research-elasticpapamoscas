@@ -2,6 +2,7 @@ package es.us.isa.papamoscas.proxysla.config;
 
 public class NewConfigDTO {
 	
+	private String testId;
 	private DownRiseSpeed downRiseSpeed;
 	private ElasticityRules elasticityRules;
     private ElasticitySpeed elasticitySpeed;
@@ -13,7 +14,16 @@ public class NewConfigDTO {
     private Integer instanceLimit;
 
     
-    public Boolean getUpdateElasticity() {
+    
+    public String getTestId() {
+		return testId;
+	}
+
+	public void setTestId(String testId) {
+		this.testId = testId;
+	}
+
+	public Boolean getUpdateElasticity() {
 		return updateElasticity;
 	}
 

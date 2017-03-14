@@ -8,10 +8,10 @@ urls:
  mela: http://192.1.1.15:8180/MELA-AnalysisService/
  
 timers:
- availability: 60 #time in minutes
+ availability: 1 #time in minutes
  throughput: 30 #time in seconds
  store: 2 #time in seconds
- rsybl: 90 #time in seconds
+ rsybl: 180 #time in seconds
  config: 5 #time in seconds
  routing: 2 #time in seconds
  
@@ -22,7 +22,7 @@ governanceProperties:
   - pro
   
  service:
-  id: PapamoscasElastic
+  id: Governed
   unitTh: 6
   weight: 0
   

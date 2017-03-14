@@ -40,31 +40,31 @@ public class Application {
     public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
         env = SpringApplication.run(Application.class, args).getEnvironment();
 
-        Timer updateConfig = new Timer(true);
-        updateConfig.scheduleAtFixedRate(new TimerTask() {
-
-            @Override
-            public void run() {
-                // TODO Auto-generated method stub
-                try {
-                    log.info("Getting config from: " + env.getProperty("urls.config"));
-
-                    RestTemplate rest = new RestTemplate();
-                    rest.getMessageConverters().add(new StringHttpMessageConverter());
-
-                    if (env.getProperty("urls.config") != null) {
-                        String configDto = rest.getForObject(env.getProperty("urls.config"), String.class);
-
-                        ObjectMapper mapper = new ObjectMapper();
-                        NewConfigDTO dto = mapper.readValue(configDto, NewConfigDTO.class);
-                        @SuppressWarnings("unused")
-                        ResponseEntity<NewConfigDTO> ret = rest.postForEntity("http://localhost:" + env.getProperty("server.port") + "/configs", dto, NewConfigDTO.class);
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }, 0, new Integer(env.getProperty("timers.config")) * 1000);
+//        Timer updateConfig = new Timer(true);
+//        updateConfig.scheduleAtFixedRate(new TimerTask() {
+//
+//            @Override
+//            public void run() {
+//                // TODO Auto-generated method stub
+//                try {
+//                    log.info("Getting config from: " + env.getProperty("urls.config"));
+//
+//                    RestTemplate rest = new RestTemplate();
+//                    rest.getMessageConverters().add(new StringHttpMessageConverter());
+//
+//                    if (env.getProperty("urls.config") != null) {
+//                        String configDto = rest.getForObject(env.getProperty("urls.config"), String.class);
+//
+//                        ObjectMapper mapper = new ObjectMapper();
+//                        NewConfigDTO dto = mapper.readValue(configDto, NewConfigDTO.class);
+//                        @SuppressWarnings("unused")
+//                        ResponseEntity<NewConfigDTO> ret = rest.postForEntity("http://localhost:" + env.getProperty("server.port") + "/configs", dto, NewConfigDTO.class);
+//                    }
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }, 0, new Integer(env.getProperty("timers.config")) * 1000);
 
     }
 
