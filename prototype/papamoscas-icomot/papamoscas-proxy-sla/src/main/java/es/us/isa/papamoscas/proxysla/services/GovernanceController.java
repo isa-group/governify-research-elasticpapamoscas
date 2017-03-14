@@ -90,7 +90,7 @@ public class GovernanceController {
 
                     Map<String, Integer> throughputINPerLevel = getThroughputINPerLevel();
                     CloudService cs = rest.getForObject(config.getUrls().get("rsybl") + "restWS/" + governConfig.getService().get("id") + "/description", CloudService.class);
-
+//                    CloudService cs = rest.getForObject(config.getUrls().get("rsybl") + "restWS/" +"UnGoverned" + "/description", CloudService.class);
                     if (cs != null && throughputINPerLevel.keySet().size() != 0) {
 
                         System.out.println("Updating rsybl rules with percentage: " + governConfig.getLevelElasticityPercentages().toString());
@@ -109,20 +109,24 @@ public class GovernanceController {
                                     Integer in = throughputINPerLevel.get(levell);
 
                                     Integer unitTh = new Integer(governConfig.getService().get("unitTh"));
-                                    Double weight = governConfig.getLevelElasticityPercentages().get(levell);
+                                    Double eSpeed = governConfig.getLevelElasticityPercentages().get(levell);
 
-                                    Double M_q = unitTh * (1 - weight);
-
+                                    Double scaleLimit = unitTh * (1 - eSpeed);
+                                    
+                                    Double instancesFactor = (governConfig.getLevelMinInstances().get(levell) - 1);
+                                    
+                                    Double scaleINleftSide = in + ((scaleLimit * instancesFactor) +1);
+                                    
                                     String scaleOut = "";
                                     String scaleIN = "";
-
-                                    if (!levell.equals("pro")) {
-                                        scaleOut = "DN_ST2:STRATEGY CASE " + in + " > " + M_q + "*numberOfVMs #:scaleOut";
-                                        scaleIN = "DN_ST1:STRATEGY CASE " + in + " <= " + M_q + "*numberOfVMs-1 #:scaleIn";
-                                    } else {
-                                        scaleOut = "DN_ST2:STRATEGY CASE " + in + "+" + M_q + " > " + M_q + "*numberOfVMs #:scaleOut";
-                                        scaleIN = "DN_ST1:STRATEGY CASE " + in + "+" + M_q + " <= " + M_q + "*numberOfVMs-1 #:scaleIn";
-                                    }
+                                    
+                                    
+                                    scaleOut = "DN_ST2:STRATEGY CASE " + in + " > " + scaleLimit + "*numberOfVMs #:scaleOut";
+                                    scaleIN = "DN_ST1:STRATEGY CASE " + scaleINleftSide + " <= " + scaleLimit + "*numberOfVMs-1 #:scaleIn";
+                                    
+                                    log.info("LEVEL: "  + levell);
+                                    log.info("scaleOut: "  + scaleOut);
+                                    log.info("scaleIN: "  + scaleIN);
 
                                     SYBLDirective directive = new SYBLDirective();
 

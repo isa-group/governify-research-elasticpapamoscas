@@ -15,7 +15,9 @@ public class GovernanceConfig {
     private Map<String, String> service;
 
     private Map<String, Double> levelElasticityPercentages;
-
+    
+    private Map<String, Double> levelMinInstances;
+    
     private Map<String, String> defaultRules;
 
     private Map<String, Map<String,Double>> routerConfig;
@@ -24,7 +26,18 @@ public class GovernanceConfig {
 
     }
 
-    public Map<String, String> getService() {
+    
+    public Map<String, Double> getLevelMinInstances() {
+		return levelMinInstances;
+	}
+
+
+	public void setLevelMinInstances(Map<String, Double> levelMinInstances) {
+		this.levelMinInstances = levelMinInstances;
+	}
+
+
+	public Map<String, String> getService() {
         return service;
     }
 

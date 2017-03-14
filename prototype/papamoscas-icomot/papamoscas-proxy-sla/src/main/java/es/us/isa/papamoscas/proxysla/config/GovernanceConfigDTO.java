@@ -15,9 +15,21 @@ public class GovernanceConfigDTO {
 	
 	private Map<String,Map<String,Double>> routerConfig;
 	
+	private Map<String, Double> levelMinInstances;
+	
 	public GovernanceConfigDTO(){
 		
 	}
+	
+	public Map<String, Double> getLevelMinInstances() {
+		return levelMinInstances;
+	}
+
+
+	public void setLevelMinInstances(Map<String, Double> levelMinInstances) {
+		this.levelMinInstances = levelMinInstances;
+	}
+
 
 	public Map<String, String> getService() {
 		return service;

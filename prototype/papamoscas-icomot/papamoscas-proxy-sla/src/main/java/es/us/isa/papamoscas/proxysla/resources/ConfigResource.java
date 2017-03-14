@@ -42,6 +42,7 @@ public class ConfigResource {
 
             List<String> levels = new ArrayList<String>();
             Map<String, Double> elasticity = new HashMap<>();
+            Map<String, Double> instances = new HashMap<>();
             Map<String, String> defaultRules = new HashMap<>();
             Map<String, String> service = new HashMap<>();
             Map<String, Map<String, Double>> routerConfig = new HashMap<>();
@@ -49,6 +50,7 @@ public class ConfigResource {
             Double maxElasticity = config.getElasticitySpeed().getMax();
             Double minElasticity = config.getElasticitySpeed().getMin();
             Integer level = config.getLevels();
+            Double[] distributionInstances = getDistribution(level, config.getInitialInstances().getMin(),config.getInitialInstances().getMax());
             Double[] distributionLevel = getDistribution(level, minElasticity, maxElasticity);
             Double[] distributionNextLevel = getDistribution(level, config.getUpRiseSpeed().getMin(), config.getUpRiseSpeed().getMax());
             Double[] distributionBackLevel = getDistribution(level, config.getDownRiseSpeed().getMin(), config.getDownRiseSpeed().getMax());
@@ -60,7 +62,10 @@ public class ConfigResource {
                 String tag = "l" + (i < 10 ? "0" : "") + i;
                 levels.add(tag);
                 elasticity.put(tag, distributionLevel[i]);
-                defaultRules.put(tag, config.getElasticityRules().getOf());
+                instances.put(tag,  distributionInstances[i]);
+                if(config.getElasticityRules() != null){
+                    defaultRules.put(tag, config.getElasticityRules().getOf());
+                }
                 routerConfig.put(tag, levelRouter);
 
             }
@@ -74,6 +79,7 @@ public class ConfigResource {
             governConfig.setLevels(levels);
             governConfig.setService(service);
             governConfig.setLevelElasticityPercentages(elasticity);
+            governConfig.setLevelMinInstances(instances);
             governConfig.setDefaultRules(defaultRules);
             governConfig.setRouterConfig(routerConfig);
             /*
@@ -123,6 +129,7 @@ public class ConfigResource {
         //ADD governANCE CONFIG
         GovernanceConfigDTO governDto = new GovernanceConfigDTO();
         governDto.setLevels(governConfig.getLevels());
+        governDto.setLevelMinInstances(governConfig.getLevelMinInstances());
         governDto.setLevelElasticityPercentages(governConfig.getLevelElasticityPercentages());
         governDto.setService(governConfig.getService());
         governDto.setDefaultRules(governConfig.getDefaultRules());

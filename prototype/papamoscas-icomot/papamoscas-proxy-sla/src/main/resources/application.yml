@@ -29,6 +29,10 @@ governanceProperties:
  levelElasticityPercentages:
   pro: 1
   basic: 0.5
+ 
+ levelMinInstances:
+  pro: 2
+  basic: 1
   
  defaultRules:
   basic: DN_ST2:STRATEGY CASE throughput > 140*numberOfVMs #:scaleOut;DN_ST2:STRATEGY CASE throughput <= 140*numberOfVMs-1 #:scaleIn
