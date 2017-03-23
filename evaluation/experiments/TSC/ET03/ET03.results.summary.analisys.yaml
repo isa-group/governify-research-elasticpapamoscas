@@ -1,0 +1,28 @@
+- 
+    id: Governed
+    cost:
+        insfrastructure: 0.1959233333333344
+        penalty: 0
+    violations:
+        total: 0
+        agreements: {}
+- 
+    id: PreProvisioned
+    cost:
+        insfrastructure: 0.31560999999999917
+        penalty: 8
+    violations:
+        total: 2
+        agreements:
+            basici: 1
+            proi: 1
+- 
+    id: UnGoverned
+    cost:
+        insfrastructure: 0.1405200000000021
+        penalty: 19.97
+    violations:
+        total: 2
+        agreements:
+            basici: 1
+            proi: 1

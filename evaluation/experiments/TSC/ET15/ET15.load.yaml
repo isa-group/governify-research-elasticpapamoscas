@@ -1,0 +1,53 @@
+testId: ET15
+executed: true
+tenants:
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 2
+            - 1
+            - 1
+            - 8
+            - 8
+            - 8
+            - 3
+        id: ET15t00
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 8
+            - 7
+            - 1
+            - 8
+            - 2
+            - 1
+            - 1
+        id: ET15t01
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 8
+            - 8
+            - 6
+            - 3
+            - 1
+            - 1
+        id: ET15t02
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 1
+            - 8
+            - 8
+            - 7
+            - 8
+            - 1
+            - 3
+        id: ET15t03
+initial: '2017-03-15T14:37:06.081Z'
+end: '2017-03-15T15:57:26.007Z'

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Definitions xmlns:ns2="http://docs.oasis-open.org/tosca/ns/2011/12" name="PapamoscasElasticOnlyOneLevelPreProvisioned" id="PapamoscasElasticOnlyOneLevelPreProvisioned">
+    <ns2:ServiceTemplate id="papamoscasTopology">
+        <ns2:TopologyTemplate>
+            <ns2:RelationshipTemplate type="CONNECTTO" id="slaProxy">
+                <ns2:SourceElement ref="papamoscasSLAProxy_IP_information"/>
+                <ns2:TargetElement ref="papamoscasBasicProxy_papamoscasSLAProxy_IP_Req"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="cassandraToLaptop">
+                <ns2:SourceElement ref="cassandraUnitVM"/>
+                <ns2:TargetElement ref="osDockerBasic"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="papamoscasSLAProxyUnitToVM">
+                <ns2:SourceElement ref="papamoscasSLAProxyUnit"/>
+                <ns2:TargetElement ref="PapamoscasSLAProxyVM"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="papamoscasSLAProxyToLaptop">
+                <ns2:SourceElement ref="PapamoscasSLAProxyVM"/>
+                <ns2:TargetElement ref="osDockerBasic"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="cassandraUnitToVM">
+                <ns2:SourceElement ref="cassandraUnit"/>
+                <ns2:TargetElement ref="cassandraUnitVM"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="CONNECTTO" id="database">
+                <ns2:SourceElement ref="cassandraUnit_IP_information"/>
+                <ns2:TargetElement ref="papamoscasBasicAPIUnit_cassandraUnit_IP_Req"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="papamoscasProxyToLaptop">
+                <ns2:SourceElement ref="PapamoscasBasicProxyVM"/>
+                <ns2:TargetElement ref="osDockerBasic"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="papamoscasAPIUnitToVM">
+                <ns2:SourceElement ref="papamoscasBasicAPIUnit"/>
+                <ns2:TargetElement ref="PapamoscasBasicAPIVM"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="CONNECTTO" id="proxy">
+                <ns2:SourceElement ref="papamoscasProxy_IP_information"/>
+                <ns2:TargetElement ref="papamoscasProxy_IP_Req"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="papamoscasAPIToLaptop">
+                <ns2:SourceElement ref="PapamoscasBasicAPIVM"/>
+                <ns2:TargetElement ref="osDockerBasic"/>
+            </ns2:RelationshipTemplate>
+            <ns2:RelationshipTemplate type="HOSTON" id="papamoscasProxyUnitToVM">
+                <ns2:SourceElement ref="papamoscasBasicProxyUnit"/>
+                <ns2:TargetElement ref="PapamoscasBasicProxyVM"/>
+            </ns2:RelationshipTemplate>
+            <ns2:NodeTemplate maxInstances="2147483647" minInstances="1" type="os" id="osDockerBasic">
+                <ns2:Properties>
+                    <MappingProperties>
+                        <MappingProperty type="os">
+                            <property name="provider">localhost</property>
+                            <property name="instanceType"></property>
+                            <property name="baseImage"></property>
+                            <property name="packages"></property>
+                        </MappingProperty>
+                    </MappingProperties>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities/>
+                <ns2:Policies/>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="5" minInstances="1" type="docker" id="PapamoscasBasicAPIVM">
+                <ns2:Properties>
+                    <MappingProperties>
+                        <MappingProperty type="os">
+                            <property name="provider">localhost</property>
+                            <property name="instanceType">000000512</property>
+                            <property name="baseImage">a82e054f-4f01-49f9-bc4c-77a98045739c</property>
+                            <property name="packages">openjdk-7-jre ganglia-monitor gmetad</property>
+                        </MappingProperty>
+                    </MappingProperties>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities/>
+                <ns2:Policies/>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="2147483647" minInstances="1" type="docker" id="PapamoscasBasicProxyVM">
+                <ns2:Properties>
+                    <MappingProperties>
+                        <MappingProperty type="os">
+                            <property name="provider">localhost</property>
+                            <property name="instanceType">000000512</property>
+                            <property name="baseImage">a82e054f-4f01-49f9-bc4c-77a98045739c</property>
+                            <property name="packages">openjdk-7-jre ganglia-monitor gmetad</property>
+                        </MappingProperty>
+                    </MappingProperties>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities/>
+                <ns2:Policies/>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="2147483647" minInstances="1" type="docker" id="PapamoscasSLAProxyVM">
+                <ns2:Properties>
+                    <MappingProperties>
+                        <MappingProperty type="os">
+                            <property name="provider">localhost</property>
+                            <property name="instanceType">000000512</property>
+                            <property name="baseImage">a82e054f-4f01-49f9-bc4c-77a98045739c</property>
+                            <property name="packages">openjdk-7-jre ganglia-monitor gmetad</property>
+                        </MappingProperty>
+                    </MappingProperties>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities/>
+                <ns2:Policies/>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="2147483647" minInstances="1" type="docker" id="cassandraUnitVM">
+                <ns2:Properties>
+                    <MappingProperties>
+                        <MappingProperty type="os">
+                            <property name="provider">localhost</property>
+                            <property name="instanceType">000000512</property>
+                            <property name="baseImage">a82e054f-4f01-49f9-bc4c-77a98045739c</property>
+                            <property name="packages">openjdk-7-jre ganglia-monitor gmetad</property>
+                        </MappingProperty>
+                    </MappingProperties>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities/>
+                <ns2:Policies/>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="1" minInstances="1" type="software" id="cassandraUnit">
+                <ns2:Properties>
+                    <MappingProperties/>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities>
+                    <ns2:Capability type="variable" id="cassandraUnit_IP_information"/>
+                </ns2:Capabilities>
+                <ns2:Policies/>
+                <ns2:DeploymentArtifacts>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_44665a7d-8792-453a-9673-d05583c742b8" artifactType="salsa:sh" name="Artifact_44665a7d-8792-453a-9673-d05583c742b8"/>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_48ffccba-b258-4151-8882-dd749f183f68" artifactType="salsa:misc" name="Artifact_48ffccba-b258-4151-8882-dd749f183f68"/>
+                </ns2:DeploymentArtifacts>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="1" minInstances="5" type="software" id="papamoscasBasicAPIUnit">
+                <ns2:Properties>
+                    <MappingProperties>
+                        <MappingProperty type="action">
+                            <property name="stop">sudo bash /tmp/undeploy.sh</property>
+                        </MappingProperty>
+                    </MappingProperties>
+                </ns2:Properties>
+                <ns2:Requirements>
+                    <ns2:Requirement fulfilled="false" name="requiringpapamoscasProxyIP" type="variable" id="papamoscasProxy_IP_Req"/>
+                    <ns2:Requirement fulfilled="false" name="databaseIP" type="variable" id="papamoscasBasicAPIUnit_cassandraUnit_IP_Req"/>
+                </ns2:Requirements>
+                <ns2:Capabilities>
+                    <ns2:Capability type="variable" id="papamoscasAPI_IP_information"/>
+                </ns2:Capabilities>
+                <ns2:Policies/>
+                <ns2:DeploymentArtifacts>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_7e8d5ca8-b44f-493c-bf49-5e8b1a9e4ba9" artifactType="salsa:misc" name="Artifact_7e8d5ca8-b44f-493c-bf49-5e8b1a9e4ba9"/>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_ae869e79-9c97-4dff-b291-4c625e39c227" artifactType="salsa:sh" name="Artifact_ae869e79-9c97-4dff-b291-4c625e39c227"/>
+                </ns2:DeploymentArtifacts>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="1" minInstances="1" type="software" id="papamoscasBasicProxyUnit">
+                <ns2:Properties>
+                    <MappingProperties/>
+                </ns2:Properties>
+                <ns2:Requirements>
+                    <ns2:Requirement fulfilled="false" type="variable" id="papamoscasBasicProxy_papamoscasSLAProxy_IP_Req"/>
+                </ns2:Requirements>
+                <ns2:Capabilities>
+                    <ns2:Capability type="variable" id="papamoscasProxy_IP_information"/>
+                </ns2:Capabilities>
+                <ns2:Policies/>
+                <ns2:DeploymentArtifacts>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_bd4bf4cf-d098-47c4-9336-8ce1b6cdd26e" artifactType="salsa:misc" name="Artifact_bd4bf4cf-d098-47c4-9336-8ce1b6cdd26e"/>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_34efe427-7a90-4be8-978b-2a763a286bad" artifactType="salsa:sh" name="Artifact_34efe427-7a90-4be8-978b-2a763a286bad"/>
+                </ns2:DeploymentArtifacts>
+            </ns2:NodeTemplate>
+            <ns2:NodeTemplate maxInstances="1" minInstances="1" type="software" id="papamoscasSLAProxyUnit">
+                <ns2:Properties>
+                    <MappingProperties/>
+                </ns2:Properties>
+                <ns2:Requirements/>
+                <ns2:Capabilities>
+                    <ns2:Capability type="variable" id="papamoscasSLAProxy_IP_information"/>
+                </ns2:Capabilities>
+                <ns2:Policies/>
+                <ns2:DeploymentArtifacts>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_dc71f706-27a7-4634-afd3-8708a52277ac" artifactType="salsa:misc" name="Artifact_dc71f706-27a7-4634-afd3-8708a52277ac"/>
+                    <ns2:DeploymentArtifact xmlns:salsa="https://github.com/tuwiendsg/SALSA" artifactRef="Artifact_5ef2bed6-4b92-439f-bc65-e22b30492141" artifactType="salsa:sh" name="Artifact_5ef2bed6-4b92-439f-bc65-e22b30492141"/>
+                </ns2:DeploymentArtifacts>
+            </ns2:NodeTemplate>
+        </ns2:TopologyTemplate>
+    </ns2:ServiceTemplate>
+    <ns2:ArtifactTemplate type="sh" id="Artifact_44665a7d-8792-453a-9673-d05583c742b8">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-cassandra/deploy.sh"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="misc" id="Artifact_48ffccba-b258-4151-8882-dd749f183f68">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-cassandra/apache-cassandra-2.2.1.tar.gz"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="misc" id="Artifact_7e8d5ca8-b44f-493c-bf49-5e8b1a9e4ba9">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-spring-boot/papamoscas-spring-boot.tar.gz"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="sh" id="Artifact_ae869e79-9c97-4dff-b291-4c625e39c227">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-spring-boot/deploy.sh"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="misc" id="Artifact_bd4bf4cf-d098-47c4-9336-8ce1b6cdd26e">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-proxy/papamoscas-proxy.war"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="sh" id="Artifact_34efe427-7a90-4be8-978b-2a763a286bad">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-proxy/deploy-basic.sh"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="misc" id="Artifact_dc71f706-27a7-4634-afd3-8708a52277ac">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-proxy-sla/papamoscas-proxy-sla.tar.gz"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+    <ns2:ArtifactTemplate type="sh" id="Artifact_5ef2bed6-4b92-439f-bc65-e22b30492141">
+        <ns2:Properties/>
+        <ns2:ArtifactReferences>
+            <ns2:ArtifactReference reference="http://10.0.2.15/ppm-icomot/papamoscas-config/papamoscas-proxy-sla/deploy.sh"/>
+        </ns2:ArtifactReferences>
+    </ns2:ArtifactTemplate>
+</ns2:Definitions>

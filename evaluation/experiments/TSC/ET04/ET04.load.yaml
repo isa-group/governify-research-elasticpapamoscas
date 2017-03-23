@@ -1,0 +1,100 @@
+testId: ET04
+executed: false
+tenants:
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 1
+            - 7
+            - 8
+            - 8
+            - 1
+            - 1
+            - 1
+        id: ET04t00
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 8
+            - 7
+            - 1
+            - 6
+            - 8
+            - 1
+            - 1
+        id: ET04t01
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 2
+            - 7
+            - 8
+            - 8
+            - 8
+            - 1
+        id: ET04t02
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 7
+            - 8
+            - 1
+            - 1
+            - 1
+            - 7
+            - 1
+        id: ET04t03
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 1
+            - 8
+            - 1
+            - 8
+            - 2
+            - 8
+            - 6
+        id: ET04t04
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 8
+            - 1
+            - 8
+            - 7
+            - 8
+            - 3
+        id: ET04t05
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 1
+            - 1
+            - 8
+            - 1
+            - 8
+            - 4
+            - 8
+        id: ET04t06
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 6
+            - 1
+            - 1
+            - 8
+            - 8
+            - 8
+        id: ET04t07
+initial: '2017-03-15T00:15:47.379Z'

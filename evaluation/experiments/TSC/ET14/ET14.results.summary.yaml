@@ -1,0 +1,57 @@
+Governed:
+    error:
+        avg: 0.47180034479927757
+        devtp: 0
+    cost:
+        avg: 0.23039999999999608
+        devtp: 0
+    ET14t02:
+        availability:
+            avg: 67.48468621703654
+            devtp: 0
+    ET14t01:
+        availability:
+            avg: 65.61314464363261
+            devtp: 0
+    ET14t00:
+        availability:
+            avg: 55.01439637703095
+            devtp: 0
+PreProvisioned:
+    error:
+        avg: 0.010158106004751373
+        devtp: 0
+    cost:
+        avg: 0.17220000000000288
+        devtp: 0
+    ET14t02:
+        availability:
+            avg: 89.1704752479641
+            devtp: 0
+    ET14t01:
+        availability:
+            avg: 88.58197080831042
+            devtp: 0
+    ET14t00:
+        availability:
+            avg: 85.06269532210295
+            devtp: 0
+UnGoverned:
+    error:
+        avg: 0.010744750656167978
+        devtp: 0
+    cost:
+        avg: 0.11167000000000168
+        devtp: 0
+    ET14t02:
+        availability:
+            avg: 83.76118164489307
+            devtp: 0
+    ET14t01:
+        availability:
+            avg: 82.86634090007186
+            devtp: 0
+    ET14t00:
+        availability:
+            avg: 77.58538869307453
+            devtp: 0

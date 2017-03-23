@@ -1,0 +1,29 @@
+{
+   "cost": {
+      "n": 844,
+      "min": 0.00013,
+      "max": 0.00017,
+      "sum": 0.12172000000000112,
+      "mean": 0.00014421800947867297,
+      "variance": 3.6656858561128576e-10,
+      "standard_deviation": 0.00001914598092580492
+   },
+   "throughput": {
+      "n": 844,
+      "min": 0,
+      "max": 16,
+      "sum": 6833,
+      "mean": 8.095971563981042,
+      "variance": 22.930362918622695,
+      "standard_deviation": 4.788565851966818
+   },
+   "thread": {
+      "n": 844,
+      "min": 0,
+      "max": 0,
+      "sum": 0,
+      "mean": 0,
+      "variance": 0,
+      "standard_deviation": 0
+   }
+}

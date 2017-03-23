@@ -1,0 +1,27 @@
+Governed:
+    error:
+        avg: 0.01917803428044123
+        devtp: 0.003230655364388459
+    cost:
+        avg: 0.24275666666666465
+        devtp: 0.00873980294718075
+    ET43_t05:
+        availability:
+            avg: 99.99825743678234
+            devtp: 0.0014203984193549126
+    ET43_t04:
+        availability:
+            avg: 100
+            devtp: 0
+    ET43_t03:
+        availability:
+            avg: 99.99901100912032
+            devtp: 0.00046118813557761496
+    ET43_t02:
+        availability:
+            avg: 100
+            devtp: 0
+    ET43_t01:
+        availability:
+            avg: 99.90652626733151
+            devtp: 0.069977114249679

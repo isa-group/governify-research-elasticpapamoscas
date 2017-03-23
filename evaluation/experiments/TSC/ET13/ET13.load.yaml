@@ -1,0 +1,148 @@
+testId: ET13
+executed: false
+tenants:
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 7
+            - 1
+            - 1
+            - 8
+            - 8
+            - 1
+        id: ET13t00
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 3
+            - 8
+            - 1
+            - 1
+            - 8
+            - 6
+        id: ET13t01
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 8
+            - 1
+            - 1
+            - 1
+            - 1
+            - 8
+            - 8
+        id: ET13t02
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 8
+            - 1
+            - 1
+            - 6
+            - 1
+            - 8
+            - 2
+        id: ET13t03
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 1
+            - 3
+            - 1
+            - 8
+            - 7
+            - 1
+            - 8
+        id: ET13t04
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 1
+            - 1
+            - 7
+            - 8
+            - 1
+            - 8
+            - 3
+        id: ET13t05
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 2
+            - 1
+            - 7
+            - 8
+            - 1
+            - 8
+            - 1
+        id: ET13t06
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 8
+            - 8
+            - 2
+            - 3
+            - 1
+            - 1
+            - 8
+        id: ET13t07
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 8
+            - 7
+            - 8
+            - 8
+            - 1
+            - 2
+        id: ET13t08
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 7
+            - 1
+            - 8
+            - 1
+            - 2
+            - 8
+        id: ET13t09
+    - 
+        agreement: proi
+        duration: 120
+        intervals:
+            - 6
+            - 1
+            - 8
+            - 1
+            - 1
+            - 7
+            - 8
+        id: ET13t10
+    - 
+        agreement: basici
+        duration: 120
+        intervals:
+            - 1
+            - 2
+            - 7
+            - 8
+            - 8
+            - 8
+            - 1
+        id: ET13t11
+initial: '2017-03-15T12:19:59.504Z'

@@ -1,0 +1,94 @@
+id: ET42 #icomot03
+meta:
+    state: CREATED
+    author: ISA Group
+agent:
+    version: 2
+    url: icomot03.elasticity.governify.io # CHANGE FOR THE USED AWS INSTANCE
+    publicIP: icomot03.elasticity.governify.io # CHANGE FOR THE USED AWS INSTANCE
+    internalIP: 172.31.17.27 # CHANGE FOR THE USED AWS INSTANCE
+service:
+    endpoint: icomot03.elasticity.governify.io # CHANGE FOR THE USED AWS INSTANCE
+    exposePort: 8002
+    components:
+        - 
+            id: papamoscas_api
+            packages:
+                - openjdk-7-jre
+                - ganglia-monitor
+                - gmetad
+            script: 'http://172.31.17.27/ppm-icomot/papamoscas-config/papamoscas-spring-boot/deploy.sh' # CHANGE FOR THE USED AWS INSTANCE
+            artifact: 'http://172.31.17.27/ppm-icomot/papamoscas-config/papamoscas-spring-boot/papamoscas-spring-boot.tar.gz' # CHANGE FOR THE USED AWS INSTANCE
+            elasticity: true
+            exposes: true
+            requires:
+                - cassandra_database
+            undeployScript: true
+        - 
+            id: cassandra_database
+            packages:
+                - openjdk-7-jre
+                - ganglia-monitor
+                - gmetad
+            script: 'http://172.31.17.27/ppm-icomot/papamoscas-config/papamoscas-cassandra/deploy.sh' # CHANGE FOR THE USED AWS INSTANCE
+            artifact: 'http://172.31.17.27/ppm-icomot/papamoscas-config/papamoscas-cassandra/apache-cassandra-2.2.1.tar.gz' # CHANGE FOR THE USED AWS INSTANCE
+            elasticity: false
+            exposes: true
+            requires: []
+            undeployScript: false
+icomotDeployer: 'https://github.com/isa-group/governify-research-elasticpapamoscas/raw/master/prototype/iCOMOT-deployer-1.0.jar'
+repetitions: 3
+deploymentTimeout: 720
+duration: 600
+topologies:
+    - 
+        id: Governed
+        levels: 2
+        initialInstances:
+            min: 1
+            max: 2
+            distribution: lineal
+        elasticitySpeed:
+            min: 0
+            max: 0.5
+            distribution: lineal
+        upRiseSpeed:
+            min: 0.7
+            max: 0.7
+            distribution: lineal
+        downRiseSpeed:
+            min: 0.8
+            max: 0.8
+            distribution: lineal
+        elasticityRules:
+            of: 'DN_ST2:STRATEGY CASE throughput > {{instanceLimit}}*{{elasticitySpeed}}*numberOfVMs #:scaleOut;DN_ST1:STRATEGY CASE throughput <= {{limit}}*{{elasticitySpeed}}*numberOfVMs-1 #:scaleIn'
+            with:
+                instanceLimit: 12
+                elasticitySpeed: '#/elasticitySpeed'
+tenants:
+    loadFromTest: LD02
+    # number: 7
+    # intervals:
+    #     count:
+    #         min: 7
+    #         max: 7
+    #     duration:
+    #         min: 120
+    #         max: 120
+    #     maxConcurrentRequests:
+    #         min: 8
+    #         max: 8
+    #     devtp: 3
+    agreements:
+        - 
+            id: basici
+            template: 'http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.iat'
+            distribution: 0.5
+        - 
+            id: proi
+            template: 'http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.iat'
+            distribution: 0.5
+    request:
+        operation: GET
+        path: /api/v3/birds
+        body: null

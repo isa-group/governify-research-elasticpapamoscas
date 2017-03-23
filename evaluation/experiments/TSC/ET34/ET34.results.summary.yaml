@@ -1,0 +1,27 @@
+PreProvisioned:
+    error:
+        avg: 0.11006431635996647
+        devtp: 0.13326500487499343
+    cost:
+        avg: 0.31597999999999915
+        devtp: 0.0034045361896542538
+    ET34_t05:
+        availability:
+            avg: 99.99397552904406
+            devtp: 0.004333562609641914
+    ET34_t04:
+        availability:
+            avg: 100
+            devtp: 0
+    ET34_t03:
+        availability:
+            avg: 99.9992698321124
+            devtp: 0.0010326133294561869
+    ET34_t02:
+        availability:
+            avg: 99.99372560261276
+            devtp: 0.0027675730369470827
+    ET34_t01:
+        availability:
+            avg: 99.98558887868843
+            devtp: 0.010555587343213844
