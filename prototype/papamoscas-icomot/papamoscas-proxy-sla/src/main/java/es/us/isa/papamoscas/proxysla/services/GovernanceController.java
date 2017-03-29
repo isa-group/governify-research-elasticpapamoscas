@@ -82,8 +82,8 @@ public class GovernanceController {
                     //System.out.println(levelIsPrepared(0));			
                     RestTemplate rest = new RestTemplate();
                     SimpleClientHttpRequestFactory rf = (SimpleClientHttpRequestFactory) rest.getRequestFactory();
-                    rf.setReadTimeout(2 * 1000);
-                    rf.setConnectTimeout(2 * 1000);
+                    rf.setReadTimeout(60 * 1000);
+                    rf.setConnectTimeout(60 * 1000);
                     JAXBContext jaxbC = JAXBContext.newInstance(CloudService.class);
                     Marshaller marshaller = jaxbC.createMarshaller();
                     marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
@@ -323,9 +323,14 @@ public class GovernanceController {
 
     public Boolean levelIsPrepared(int level) {
         Integer thAssigned = getThroughputINPerLevel().get(governConfig.getLevels().get(level));
+        
+        thAssigned = ( thAssigned.equals(0) ? 1 : thAssigned); 
+        
         Integer numberOfVMs = new Integer(melaService.getMetricOfServiceUnit(governConfig.getService().get("id"),
                 governConfig.getLevels().get(level), "numberOfVMs"));
-
+        
+        log.info(governConfig.getLevels().get(level) + " numero de maquinas: " + numberOfVMs);
+        
         if (thAssigned / new Integer(governConfig.getService().get("unitTh")) > numberOfVMs) {
             return false;
         }

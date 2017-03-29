@@ -4,7 +4,6 @@ server:
 urls:
  rsybl: http://192.1.1.15:8280/rSYBL/ #192.1.1.15
  store: http://datastore-research-governify.herokuapp.com/api/v5/
- config: http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/config-v2.json
  mela: http://192.1.1.15:8180/MELA-AnalysisService/
  
 timers:
@@ -12,23 +11,22 @@ timers:
  throughput: 30 #time in seconds
  store: 2 #time in seconds
  rsybl: 180 #time in seconds
- config: 5 #time in seconds
  routing: 2 #time in seconds
  
 governanceProperties: 
 
  levels:
-  - basic
-  - pro
+  - l00
+  - l01
   
  service:
   id: Governed
   unitTh: 6
-  weight: 0
+  scalable: false
   
  levelElasticityPercentages:
-  pro: 1
-  basic: 0.5
+  pro: 0.5
+  basic: 0
  
  levelMinInstances:
   pro: 2
@@ -40,9 +38,9 @@ governanceProperties:
   
  routerConfig:
   basic:
-    nextLevel: 0.5
+    nextLevel: 0.7
     backLevel: 0.8
   pro:
-    nextLevel: 0.5
+    nextLevel: 0.7
     backLevel: 0.8
  

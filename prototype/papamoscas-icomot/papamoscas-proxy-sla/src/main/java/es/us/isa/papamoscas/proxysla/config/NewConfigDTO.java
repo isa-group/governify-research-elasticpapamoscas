@@ -2,6 +2,7 @@ package es.us.isa.papamoscas.proxysla.config;
 
 public class NewConfigDTO {
 	
+	private String datastore;
 	private String testId;
 	private DownRiseSpeed downRiseSpeed;
 	private ElasticityRules elasticityRules;
@@ -15,7 +16,16 @@ public class NewConfigDTO {
 
     
     
-    public String getTestId() {
+    
+    public String getDatastore() {
+		return datastore;
+	}
+
+	public void setDatastore(String datastore) {
+		this.datastore = datastore;
+	}
+
+	public String getTestId() {
 		return testId;
 	}
 

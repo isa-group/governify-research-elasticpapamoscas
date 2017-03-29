@@ -15,6 +15,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -47,6 +48,10 @@ public class Router {
 		
 		try{
 			
+			SimpleClientHttpRequestFactory rf = (SimpleClientHttpRequestFactory) restTemplate.getRequestFactory();
+            rf.setReadTimeout(10 * 1000);
+            rf.setConnectTimeout(10 * 1000);
+            
 			String path = (String) requestIn.getAttribute(HandlerMapping.PATH_WITHIN_HANDLER_MAPPING_ATTRIBUTE);
 			
 			String ip = randomIP(user);
@@ -59,7 +64,7 @@ public class Router {
 			
 		}catch(Exception e){
 			
-			e.printStackTrace();
+			log.error("Timeout or others erros");
 			return new ResponseEntity<String>(HttpStatus.SERVICE_UNAVAILABLE);
 			
 		}
@@ -76,6 +81,10 @@ public class Router {
 		
 		try{
 			
+			SimpleClientHttpRequestFactory rf = (SimpleClientHttpRequestFactory) restTemplate.getRequestFactory();
+            rf.setReadTimeout(10 * 1000);
+            rf.setConnectTimeout(10 * 1000);
+            
 			String path = (String) requestIn.getAttribute(HandlerMapping.PATH_WITHIN_HANDLER_MAPPING_ATTRIBUTE);
 			
 			String ip = randomIP(user);
@@ -86,8 +95,7 @@ public class Router {
 			return new ResponseEntity<String>(restTemplate.getForObject("http://" + ip + path, String.class), HttpStatus.OK);
 			
 		}catch(Exception e){
-			
-			e.printStackTrace();
+			log.error("Timeout or others erros");
 			return new ResponseEntity<String>(HttpStatus.SERVICE_UNAVAILABLE);
 			
 		}

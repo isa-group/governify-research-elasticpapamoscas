@@ -164,6 +164,7 @@ public class MetricsRepository {
 			MetricsRepository.throughputRegistry.put(user, 0);
 			MetricsRepository.totalRequestRegistry.put(user, 0);
 			MetricsRepository.OKRequestRegistry.put(user, 0);
+			MetricsRepository.throughputSecondPerUser.put(user, new ArrayList<Integer>());
 		}
 		Integer ret = 0;
 		try {	

@@ -40,7 +40,7 @@ public class ConfigResource {
                 return new ResponseEntity<NewConfigDTO>(HttpStatus.BAD_REQUEST);
             }
             
-            generalConfig.getUrls().put("config", "http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/" + config.getTestId() + "-config-v2.json");
+            generalConfig.getUrls().put("store", config.getDatastore());
             
             List<String> levels = new ArrayList<String>();
             Map<String, Double> elasticity = new HashMap<>();
@@ -49,15 +49,13 @@ public class ConfigResource {
             Map<String, String> service = new HashMap<>();
             Map<String, Map<String, Double>> routerConfig = new HashMap<>();
 
-            Double maxElasticity = config.getElasticitySpeed().getMax();
-            Double minElasticity = config.getElasticitySpeed().getMin();
-            Integer level = config.getLevels();
-            Double[] distributionInstances = getDistribution(level, config.getInitialInstances().getMin(),config.getInitialInstances().getMax());
-            Double[] distributionLevel = getDistribution(level, minElasticity, maxElasticity);
-            Double[] distributionNextLevel = getDistribution(level, config.getUpRiseSpeed().getMin(), config.getUpRiseSpeed().getMax());
-            Double[] distributionBackLevel = getDistribution(level, config.getDownRiseSpeed().getMin(), config.getDownRiseSpeed().getMax());
-                
-            for (int i = 0; i < level; i++) {
+            Integer count = config.getLevels();
+            Double[] distributionInstances = config.getInitialInstances().getDistribution(count);
+            Double[] distributionLevel = config.getElasticitySpeed().getDistribution(count);
+            Double[] distributionNextLevel = config.getUpRiseSpeed().getDistribution(count);
+            Double[] distributionBackLevel = config.getDownRiseSpeed().getDistribution(count);
+            
+            for (int i = 0; i < count; i++) {
                 Map<String, Double> levelRouter = new HashMap<>();
                 levelRouter.put("nextLevel",distributionNextLevel[i]);
                 levelRouter.put("backLevel",distributionBackLevel[i]);
@@ -75,7 +73,6 @@ public class ConfigResource {
             service.put("id", config.getId());
             service.put("scalable", config.getUpdateElasticity().toString());
             service.put("unitTh", config.getInstanceLimit().toString());
-            service.put("weight", "0");
            
 
             governConfig.setLevels(levels);
@@ -84,13 +81,7 @@ public class ConfigResource {
             governConfig.setLevelMinInstances(instances);
             governConfig.setDefaultRules(defaultRules);
             governConfig.setRouterConfig(routerConfig);
-            /*
-            
-            //UPDATE GENERAL CONFIG
-            generalConfig.setTimers(config.getTimers());
-            generalConfig.setUrls(config.getUrls());
-
-             */
+          
 
             return new ResponseEntity<NewConfigDTO>(HttpStatus.OK);
 
@@ -101,22 +92,6 @@ public class ConfigResource {
 
     }
 
-    private static Double[] getDistribution(Integer level, Double min, Double max) {
-        Double[] dis = new Double[level];
-
-        dis[0] = min;
-        //generate distribution array
-        if (level > 0) {
-            Double difference = (max - min);
-            Double factor = difference / (level - 1);
-            dis[dis.length - 1] = max;
-            //fill array
-            for (int i = 1; i <= (level - 2); i++) {
-                dis[i] = min + factor;
-            }
-        }
-        return dis;
-    }
 
     /* ----------GET---------- */
     @RequestMapping(value = "", method = RequestMethod.GET,

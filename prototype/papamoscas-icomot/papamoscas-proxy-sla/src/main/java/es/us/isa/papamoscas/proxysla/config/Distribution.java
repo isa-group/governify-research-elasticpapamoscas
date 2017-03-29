@@ -15,11 +15,11 @@ public class Distribution {
     protected Double min;
     protected Double max;
 
-    public String getDistribution() {
+    public String getType() {
         return distribution;
     }
 
-    public void setDistribution(String distribution) {
+    public void setType(String distribution) {
         this.distribution = distribution;
     }
 
@@ -38,5 +38,19 @@ public class Distribution {
     public Double getMax() {
         return max;
     }
-
+    
+    public Double[] getDistribution(Integer levels){
+    	
+    	Double[] ret = new Double[levels];
+    	
+    	Double diff = this.max - this.min;
+    	Double factor = 1.0 / levels;
+    	
+    	for(int l = 0; l < levels; l++ ){
+    		ret[l] = Math.floor(this.min + ( diff * factor * ( l +1 ) ));
+    	}    	
+    	
+    	return ret;
+    	
+    }
 }
