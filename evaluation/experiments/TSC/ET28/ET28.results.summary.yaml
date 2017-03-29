@@ -1,0 +1,93 @@
+Governed:
+    error:
+        avg: 0.017852324849356956
+        devtp: 0
+    cost:
+        avg: 0.24731999999999618
+        devtp: 0
+    ET28_t05:
+        availability:
+            avg: 99.96938736745328
+            devtp: 0
+    ET28_t04:
+        availability:
+            avg: 100
+            devtp: 0
+    ET28_t03:
+        availability:
+            avg: 99.92202319782162
+            devtp: 0
+    ET28_t02:
+        availability:
+            avg: 100
+            devtp: 0
+    ET28_t01:
+        availability:
+            avg: 99.77204929656384
+            devtp: 0
+    ET28_t00:
+        availability:
+            avg: 99.9110693946914
+            devtp: 0
+PreProvisioned:
+    error:
+        avg: 0.01689370854991934
+        devtp: 0
+    cost:
+        avg: 0.2837999999999977
+        devtp: 0
+    ET28_t05:
+        availability:
+            avg: 99.37812107668375
+            devtp: 0
+    ET28_t04:
+        availability:
+            avg: 99.91603254190676
+            devtp: 0
+    ET28_t03:
+        availability:
+            avg: 99.07841871790835
+            devtp: 0
+    ET28_t02:
+        availability:
+            avg: 99.97272730966236
+            devtp: 0
+    ET28_t01:
+        availability:
+            avg: 80.53250133007249
+            devtp: 0
+    ET28_t00:
+        availability:
+            avg: 82.50264401290823
+            devtp: 0
+UnGoverned:
+    error:
+        avg: 0.057704388405276856
+        devtp: 0
+    cost:
+        avg: 0.15080000000000246
+        devtp: 0
+    ET28_t05:
+        availability:
+            avg: 99.19185991202137
+            devtp: 0
+    ET28_t04:
+        availability:
+            avg: 99.89088315035833
+            devtp: 0
+    ET28_t03:
+        availability:
+            avg: 98.80194433328089
+            devtp: 0
+    ET28_t02:
+        availability:
+            avg: 99.96475467257456
+            devtp: 0
+    ET28_t01:
+        availability:
+            avg: 74.69256749004363
+            devtp: 0
+    ET28_t00:
+        availability:
+            avg: 77.26558815843843
+            devtp: 0

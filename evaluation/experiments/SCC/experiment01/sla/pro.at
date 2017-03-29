@@ -1,0 +1,25 @@
+Template pro version 1.0
+	Provider "ISA" as Responder;
+	Metrics:
+		price: integer[0..500];
+		int: integer[0..10000];
+
+AgreementTerms
+	Service BirdAPI availableAt "http://papamoscas-isa.appspot.com/api/v4/birds"
+		GlobalDescription
+			MaxThroughput: int = 8;
+			MinAvailability: int = 95;
+			PlanPrice: price = 99;
+
+	MonitorableProperties
+		global:
+			Availability: int = 100;
+			Throughput: int = 0;
+
+	GuaranteeTerms
+		ThroughputTerm: Consumer guarantees Throughput <= 8;
+
+		AvailabilityTerm: Provider guarantees Availability >= 95;
+
+
+EndTemplate

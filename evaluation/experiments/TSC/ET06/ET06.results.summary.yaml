@@ -1,0 +1,31 @@
+Governed:
+    error:
+        avg: 0.04608593286077925
+        devtp: 0.027629035926576312
+    cost:
+        avg: 0.32092500000000035
+        devtp: 0.007314999999998781
+    ET06t05:
+        availability:
+            avg: 95.17727994884433
+            devtp: 1.60971330455585
+    ET06t04:
+        availability:
+            avg: 92.76852821636179
+            devtp: 2.4290185775940927
+    ET06t03:
+        availability:
+            avg: 92.41479527451921
+            devtp: 2.5400801043758356
+    ET06t02:
+        availability:
+            avg: 93.39530497642244
+            devtp: 2.2117338993504525
+    ET06t01:
+        availability:
+            avg: 94.63800855108289
+            devtp: 1.79835488070853
+    ET06t00:
+        availability:
+            avg: 94.04197380970271
+            devtp: 1.9952032149606254

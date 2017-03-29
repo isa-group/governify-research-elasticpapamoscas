@@ -1,0 +1,93 @@
+Governed:
+    error:
+        avg: 0.018211177895397865
+        devtp: 0
+    cost:
+        avg: 0.25182999999999783
+        devtp: 0
+    ET24_t05:
+        availability:
+            avg: 99.97543344943142
+            devtp: 0
+    ET24_t04:
+        availability:
+            avg: 100
+            devtp: 0
+    ET24_t03:
+        availability:
+            avg: 100
+            devtp: 0
+    ET24_t02:
+        availability:
+            avg: 99.98628241747772
+            devtp: 0
+    ET24_t01:
+        availability:
+            avg: 100
+            devtp: 0
+    ET24_t00:
+        availability:
+            avg: 99.99674652577608
+            devtp: 0
+PreProvisioned:
+    error:
+        avg: 0.019467121198528753
+        devtp: 0
+    cost:
+        avg: 0.2837999999999977
+        devtp: 0
+    ET24_t05:
+        availability:
+            avg: 78.41403562253434
+            devtp: 0
+    ET24_t04:
+        availability:
+            avg: 99.93254135285012
+            devtp: 0
+    ET24_t03:
+        availability:
+            avg: 96.73923239325865
+            devtp: 0
+    ET24_t02:
+        availability:
+            avg: 99.95080055207957
+            devtp: 0
+    ET24_t01:
+        availability:
+            avg: 82.33012335427772
+            devtp: 0
+    ET24_t00:
+        availability:
+            avg: 76.01565556414192
+            devtp: 0
+UnGoverned:
+    error:
+        avg: 0.2955085924529995
+        devtp: 0
+    cost:
+        avg: 0.13236000000000261
+        devtp: 0
+    ET24_t05:
+        availability:
+            avg: 67.72442193647976
+            devtp: 0
+    ET24_t04:
+        availability:
+            avg: 99.89869477786067
+            devtp: 0
+    ET24_t03:
+        availability:
+            avg: 95.10318097527606
+            devtp: 0
+    ET24_t02:
+        availability:
+            avg: 99.9261153134358
+            devtp: 0
+    ET24_t01:
+        availability:
+            avg: 73.47647732854372
+            devtp: 0
+    ET24_t00:
+        availability:
+            avg: 63.995659280742125
+            devtp: 0

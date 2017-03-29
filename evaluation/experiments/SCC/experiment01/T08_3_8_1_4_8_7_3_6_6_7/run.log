@@ -1,0 +1,203 @@
+11:01:30  ====== [T08.01.00-1_4_8_7_3_6_6_7-90-PapamoscasElastic-760] ======
+11:01:30     Updating config.json with PapamoscasElasticconfig-PapamoscasElastic. | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+11:01:30     Restarting...........
+11:04:08         UNDEPLOYED............
+11:06:12         ALLOCATING......................................................r
+11:15:37         ........
+11:17:23         UNDEPLOYED...
+11:17:54         ALLOCATING....................................
+11:24:07         STAGING.
+11:24:17         CONFIGURING...
+11:24:53         DEPLOYED.
+11:25:03     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+11:25:05     Start Monitor...OK
+11:25:05     Monitoring...OK
+11:25:05     Cleaning datastore...OK
+11:25:06     Executing test...OK
+11:37:27     Stoping monitor...OK
+11:37:27     Getting test data...OK
+11:37:27     Getting test stats...OK
+11:37:27     Shutdown monitor...OK
+11:37:27     Getting Availability...OK
+11:37:28     Cleaning datastore...OK
+11:37:29     Getting summary...OK
+Finish test: T08.01.00-1_4_8_7_3_6_6_7-90-PapamoscasElastic-760
+11:37:30  ====== [T08.01.01-1_4_8_7_3_6_6_7-90-PapamoscasElastic-760] ======
+11:37:30     Updating config.json with PapamoscasElasticconfig-PapamoscasElastic. | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+11:37:30     Restarting.........
+11:39:33         UNDEPLOYED................
+11:42:18         ALLOCATING....................................................r
+11:51:23         ........
+11:53:10         UNDEPLOYED...
+11:53:41         ALLOCATING.................................................................r
+12:04:59         ........
+12:06:42         UNDEPLOYED.........
+12:08:15         ALLOCATING...........................................................12:18:17  ====== [T08.01.02-1_4_8_7_3_6_6_7-90-PapamoscasElastic-760] ======
+12:18:17     Updating config.json with PapamoscasElasticconfig-PapamoscasElastic. | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+12:18:18     Restarting.........
+12:20:25         UNDEPLOYED....
+12:21:06         ALLOCATING...............
+12:23:41         CONFIGURING...
+12:24:12         DEPLOYED.
+12:24:22     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+12:24:40     Start Monitor...OK
+12:24:40     Monitoring...OK
+12:24:41     Cleaning datastore...OK
+12:24:42     Executing test...OK
+12:38:45     Stoping monitor...OK
+12:38:45     Getting test data...OK
+12:38:45     Getting test stats...OK
+12:38:45     Shutdown monitor...OK
+12:38:45     Getting Availability...OK
+12:38:46     Cleaning datastore...OK
+12:38:47     Getting summary...OK
+Finish test: T08.01.02-1_4_8_7_3_6_6_7-90-PapamoscasElastic-760
+12:38:47  ====== [T08.01.00-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevel-760] ======
+12:38:47     Updating config.json with PapamoscasElasticOnlyOneLevelconfig-PapamoscasElasticO | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+12:38:48     Restarting.........
+12:40:55         UNDEPLOYED..........
+12:42:39         ALLOCATING..........................................................r
+12:52:44         ........
+12:54:31         UNDEPLOYED....
+12:55:12         ALLOCATING................................................................r
+13:06:21         ........
+13:08:08         UNDEPLOYED..
+13:08:29         ALLOCATING.............
+13:10:43         CONFIGURING...
+13:11:14         DEPLOYED.
+13:11:24     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+13:11:25     Start Monitor...OK
+13:11:25     Monitoring...OK
+13:11:25     Cleaning datastore...OK
+13:11:26     Executing test...OK
+13:23:40     Stoping monitor...OK
+13:23:40     Getting test data...OK
+13:23:40     Getting test stats...OK
+13:23:40     Shutdown monitor...OK
+13:23:40     Getting Availability...OK
+13:23:41     Cleaning datastore...OK
+13:23:42     Getting summary...OK
+Finish test: T08.01.00-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevel-760
+13:23:42  ====== [T08.01.01-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevel-760] ======
+13:23:42     Updating config.json with PapamoscasElasticOnlyOneLevelconfig-PapamoscasElasticO | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+13:23:43     Restarting.........
+13:25:46         UNDEPLOYED...........
+13:27:40         ALLOCATING.........................................................r
+13:37:35         ........
+13:39:20         UNDEPLOYED...
+13:39:51         ALLOCATING............
+13:41:55         STAGING.
+13:42:06         CONFIGURING...
+13:42:37         DEPLOYED.
+13:42:47     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+13:42:48     Start Monitor...OK
+13:42:48     Monitoring...OK
+13:42:48     Cleaning datastore...OK
+13:42:49     Executing test...OK
+13:55:34     Stoping monitor...OK
+13:55:34     Getting test data...OK
+13:55:34     Getting test stats...OK
+13:55:35     Shutdown monitor...OK
+13:55:35     Getting Availability...OK
+13:55:36     Cleaning datastore...OK
+13:55:37     Getting summary...OK
+Finish test: T08.01.01-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevel-760
+13:55:37  ====== [T08.01.02-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevel-760] ======
+13:55:37     Updating config.json with PapamoscasElasticOnlyOneLevelconfig-PapamoscasElasticO | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+13:55:37     Restarting.........
+13:57:45         UNDEPLOYED...................
+14:01:01         ALLOCATING.............
+14:03:15         CONFIGURING..
+14:03:36         DEPLOYED.
+14:03:46     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+14:03:47     Start Monitor...OK
+14:03:48     Monitoring...OK
+14:03:48     Cleaning datastore...OK
+14:03:49     Executing test...OK
+14:16:01     Stoping monitor...OK
+14:16:01     Getting test data...OK
+14:16:01     Getting test stats...OK
+14:16:01     Shutdown monitor...OK
+14:16:01     Getting Availability...OK
+14:16:03     Cleaning datastore...OK
+14:16:04     Getting summary...OK
+Finish test: T08.01.02-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevel-760
+14:16:04  ====== [T08.01.00-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+14:16:04     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisionedconfig-PapamoscasElasticO | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+14:16:04     Restarting.........
+14:18:07         UNDEPLOYED.............
+14:20:21         ALLOCATING...............
+14:22:56         CONFIGURING....
+14:23:38         DEPLOYED.
+14:23:48     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+14:23:49     Start Monitor...OK
+14:23:49     Monitoring...OK
+14:23:49     Cleaning datastore...OK
+14:23:50     Executing test...OK
+14:35:54     Stoping monitor...OK
+14:35:55     Getting test data...OK
+14:35:55     Getting test stats...OK
+14:35:55     Shutdown monitor...OK
+14:35:55     Getting Availability...OK
+14:35:56     Cleaning datastore...OK
+14:35:57     Getting summary...OK
+Finish test: T08.01.00-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760
+14:35:57  ====== [T08.01.01-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+14:35:57     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisionedconfig-PapamoscasElasticO | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+14:35:57     Restarting.........
+14:37:59         UNDEPLOYED............
+14:40:04         ALLOCATING..............
+14:42:28         CONFIGURING....
+14:43:10         DEPLOYED.
+14:43:20     Creating agreements....
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/basic.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/templates/2?url=http://labs.isa.us.es/ir/dani8art/iCOMOTDemo/iCOMOT/pro.at>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=basic&agreement=t1>
+             <http://datastore-research-governify.herokuapp.com/api/v5/agreements?template=pro&agreement=t2>
+14:43:21     Start Monitor...OK
+14:43:21     Monitoring...OK
+14:43:22     Cleaning datastore...OK
+14:43:23     Executing test...OK
+14:55:27     Stoping monitor...OK
+14:55:27     Getting test data...OK
+14:55:27     Getting test stats...OK
+14:55:27     Shutdown monitor...OK
+14:55:27     Getting Availability...OK
+14:55:28     Cleaning datastore...OK
+14:55:29     Getting summary...OK
+Finish test: T08.01.01-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760
+14:55:29  ====== [T08.01.02-1_4_8_7_3_6_6_7-90-PapamoscasElasticOnlyOneLevelPreProvisioned-760] ======
+14:55:29     Updating config.json with PapamoscasElasticOnlyOneLevelPreProvisionedconfig-PapamoscasElasticO | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+14:55:30     Restarting.........
+14:57:32         UNDEPLOYED................
+15:00:18         ALLOCATING....................................................r
+15:09:22         ........
+15:11:09         UNDEPLOYED....
+15:11:50         ALLOCATING................................................................r
+15:22:58         ........
+15:24:45         UNDEPLOYED....
+15:25:27         ALLOCATING................................................................

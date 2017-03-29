@@ -1,0 +1,117 @@
+Governed:
+    error:
+        avg: 0.05304226530493183
+        devtp: 0.00510991483672432
+    cost:
+        avg: 0.32109333333333506
+        devtp: 0.01956564392556944
+    ET04t07:
+        availability:
+            avg: 95.46637388540789
+            devtp: 1.9105846824788446
+    ET04t06:
+        availability:
+            avg: 98.99218434420912
+            devtp: 1.1062553271012427
+    ET04t05:
+        availability:
+            avg: 94.71430779778868
+            devtp: 0.649015739166019
+    ET04t04:
+        availability:
+            avg: 94.65901669190153
+            devtp: 1.1306417469160732
+    ET04t03:
+        availability:
+            avg: 94.47582117355631
+            devtp: 2.354081384534119
+    ET04t02:
+        availability:
+            avg: 99.27997420991885
+            devtp: 0.46682385828458717
+    ET04t01:
+        availability:
+            avg: 94.70736556519404
+            devtp: 0.7624648944102459
+    ET04t00:
+        availability:
+            avg: 98.38148675266683
+            devtp: 0.6083344603235853
+PreProvisioned:
+    error:
+        avg: 0.027743992636665462
+        devtp: 0
+    cost:
+        avg: 0.31819999999999904
+        devtp: 0
+    ET04t07:
+        availability:
+            avg: 98.6411363871752
+            devtp: 0
+    ET04t06:
+        availability:
+            avg: 99.49035281434773
+            devtp: 0
+    ET04t05:
+        availability:
+            avg: 98.79060651769854
+            devtp: 0
+    ET04t04:
+        availability:
+            avg: 98.62949555052481
+            devtp: 0
+    ET04t03:
+        availability:
+            avg: 98.26102024526743
+            devtp: 0
+    ET04t02:
+        availability:
+            avg: 99.75736876220165
+            devtp: 0
+    ET04t01:
+        availability:
+            avg: 98.73238229003248
+            devtp: 0
+    ET04t00:
+        availability:
+            avg: 83.83488688223176
+            devtp: 0
+UnGoverned:
+    error:
+        avg: 0.058128859450143205
+        devtp: 0.04450475443376986
+    cost:
+        avg: 0.15992333333333494
+        devtp: 0.009705449786359474
+    ET04t07:
+        availability:
+            avg: 97.55006342668287
+            devtp: 0.7038037861924725
+    ET04t06:
+        availability:
+            avg: 99.07950194804323
+            devtp: 0.2651035453280067
+    ET04t05:
+        availability:
+            avg: 97.81536659939867
+            devtp: 0.6287807462117513
+    ET04t04:
+        availability:
+            avg: 97.52357555576411
+            devtp: 0.71382031803194
+    ET04t03:
+        availability:
+            avg: 96.8573437848489
+            devtp: 0.9052923345088238
+    ET04t02:
+        availability:
+            avg: 99.56171393853155
+            devtp: 0.12614740610873204
+    ET04t01:
+        availability:
+            avg: 97.7095352703082
+            devtp: 0.6607795656353154
+    ET04t00:
+        availability:
+            avg: 70.79846173170367
+            devtp: 8.40622156225427

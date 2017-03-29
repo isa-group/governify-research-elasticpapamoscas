@@ -1,0 +1,20 @@
+{
+   "PapamoscasElastic": {
+      "error": 0,
+      "t1": 100,
+      "t2": 100,
+      "cost": 0.00020724293061498322
+   },
+   "PapamoscasElasticOnlyOneLevelPreProvisioned": {
+      "error": 0,
+      "t1": 99.93966565206328,
+      "t2": 100,
+      "cost": 0.0002699999999999995
+   },
+   "PapamoscasElasticOnlyOneLevel": {
+      "error": 0,
+      "t1": 100,
+      "t2": 100,
+      "cost": 0.0001448454545454546
+   }
+}

@@ -1,0 +1,27 @@
+UnGoverned:
+    error:
+        avg: 0.04347288387556867
+        devtp: 0.037418806411990295
+    cost:
+        avg: 0.15013333333333526
+        devtp: 0.011661195860154438
+    ET45_t05:
+        availability:
+            avg: 93.39304064061503
+            devtp: 3.0653211661059685
+    ET45_t04:
+        availability:
+            avg: 97.05488963912386
+            devtp: 1.367786176501363
+    ET45_t03:
+        availability:
+            avg: 92.22731591279549
+            devtp: 3.611940636721014
+    ET45_t02:
+        availability:
+            avg: 96.65033593008418
+            devtp: 1.5565778356295776
+    ET45_t01:
+        availability:
+            avg: 93.69239332460174
+            devtp: 2.9303282269887223

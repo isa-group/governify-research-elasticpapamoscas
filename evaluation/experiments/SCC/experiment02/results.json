@@ -1,0 +1,127 @@
+{
+   "header": [
+      "",
+      "T00",
+      "",
+      "T01",
+      "",
+      "T02",
+      ""
+   ],
+   "error": {
+      "PapamoscasElastic": [
+         "PapamoscasElastic",
+         0.021875000000000002,
+         0.021113479250158253,
+         0.0835978835978836,
+         0.0572358639535123,
+         0.035379464285714285,
+         0.02142996001411982
+      ],
+      "PapamoscasElasticOnlyOneLevel": [
+         "PapamoscasElasticOnlyOneLevel",
+         0.10669642857142857,
+         0.06342510264926293,
+         0.09847883597883599,
+         0.06023850768878649,
+         0.08311011904761904,
+         0.052977601221852764
+      ],
+      "PapamoscasElasticOnlyOneLevelPreProvisioned": [
+         "PapamoscasElasticOnlyOneLevelPreProvisioned",
+         0,
+         0,
+         0,
+         0,
+         0.00004960317460317461,
+         0.0000701494822605702
+      ]
+   },
+   "t1": {
+      "PapamoscasElastic": [
+         "PapamoscasElastic",
+         99.5357422282603,
+         0.33441528550817734,
+         96.36116368982225,
+         3.95688613775899,
+         96.73898133706086,
+         2.236755254322185
+      ],
+      "PapamoscasElasticOnlyOneLevel": [
+         "PapamoscasElasticOnlyOneLevel",
+         94.10001895546333,
+         5.6557850265867815,
+         93.95401646821291,
+         3.6084589212423825,
+         92.02915299393983,
+         6.036230777861143
+      ],
+      "PapamoscasElasticOnlyOneLevelPreProvisioned": [
+         "PapamoscasElasticOnlyOneLevelPreProvisioned",
+         100,
+         0,
+         99.97681776940732,
+         0.023182230592674102,
+         99.88314889062501,
+         0.16525242365647472
+      ]
+   },
+   "t2": {
+      "PapamoscasElastic": [
+         "PapamoscasElastic",
+         99.35087661635016,
+         0.3521740615151996,
+         96.36669116843062,
+         3.9931485912894957,
+         96.6854650705134,
+         2.159958468183227
+      ],
+      "PapamoscasElasticOnlyOneLevel": [
+         "PapamoscasElasticOnlyOneLevel",
+         93.82112389065651,
+         5.985253915083429,
+         94.44556218629442,
+         3.1304184275076565,
+         92.15540623180414,
+         5.818349609143844
+      ],
+      "PapamoscasElasticOnlyOneLevelPreProvisioned": [
+         "PapamoscasElasticOnlyOneLevelPreProvisioned",
+         100,
+         0,
+         100,
+         0,
+         99.9720389987637,
+         0.023586252148452863
+      ]
+   },
+   "cost": {
+      "PapamoscasElastic": [
+         "PapamoscasElastic",
+         0.00020751339777727565,
+         0.000002247542319958312,
+         0.00020533045953294036,
+         0.0000022527836423464284,
+         0.00021422865997537988,
+         0.000008157116030542042
+      ],
+      "PapamoscasElasticOnlyOneLevel": [
+         "PapamoscasElasticOnlyOneLevel",
+         0.0001361654045881171,
+         0.0000021639129882400773,
+         0.00013152350570333262,
+         7.011007181586797e-8,
+         0.00013274122860458833,
+         6.473183644788124e-7
+      ],
+      "PapamoscasElasticOnlyOneLevelPreProvisioned": [
+         "PapamoscasElasticOnlyOneLevelPreProvisioned",
+         0.0002699999999999982,
+         0,
+         0.0002699999999999982,
+         0,
+         0.0002699999999999982,
+         0
+      ]
+   }
+}

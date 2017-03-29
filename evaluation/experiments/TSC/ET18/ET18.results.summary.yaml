@@ -1,0 +1,105 @@
+Governed:
+    error:
+        avg: 0.06530335555304485
+        devtp: 0
+    cost:
+        avg: 0.2181000000000009
+        devtp: 0
+    ET18t06:
+        availability:
+            avg: 94.9205999390732
+            devtp: 0
+    ET18t05:
+        availability:
+            avg: 92.85445250613806
+            devtp: 0
+    ET18t04:
+        availability:
+            avg: 97.78945880405756
+            devtp: 0
+    ET18t03:
+        availability:
+            avg: 97.71994197293357
+            devtp: 0
+    ET18t02:
+        availability:
+            avg: 94.0828532822713
+            devtp: 0
+    ET18t01:
+        availability:
+            avg: 95.076751168783
+            devtp: 0
+    ET18t00:
+        availability:
+            avg: 99.25459907499886
+            devtp: 0
+PreProvisioned:
+    error:
+        avg: 0.02493972272453285
+        devtp: 0
+    cost:
+        avg: 0.2841299999999977
+        devtp: 0
+    ET18t06:
+        availability:
+            avg: 77.68278884685027
+            devtp: 0
+    ET18t05:
+        availability:
+            avg: 79.63932487613774
+            devtp: 0
+    ET18t04:
+        availability:
+            avg: 72.64142270338479
+            devtp: 0
+    ET18t03:
+        availability:
+            avg: 79.86601059019081
+            devtp: 0
+    ET18t02:
+        availability:
+            avg: 87.75446400302954
+            devtp: 0
+    ET18t01:
+        availability:
+            avg: 71.01822242856161
+            devtp: 0
+    ET18t00:
+        availability:
+            avg: 77.66528514923414
+            devtp: 0
+UnGoverned:
+    error:
+        avg: 0.6228410159924741
+        devtp: 0
+    cost:
+        avg: 0.1119300000000017
+        devtp: 0
+    ET18t06:
+        availability:
+            avg: 66.51125325222608
+            devtp: 0
+    ET18t05:
+        availability:
+            avg: 69.45898731420667
+            devtp: 0
+    ET18t04:
+        availability:
+            avg: 58.962134055077236
+            devtp: 0
+    ET18t03:
+        availability:
+            avg: 69.75230129268813
+            devtp: 0
+    ET18t02:
+        availability:
+            avg: 81.61941510569612
+            devtp: 0
+    ET18t01:
+        availability:
+            avg: 56.49371209113543
+            devtp: 0
+    ET18t00:
+        availability:
+            avg: 66.47201738179696
+            devtp: 0

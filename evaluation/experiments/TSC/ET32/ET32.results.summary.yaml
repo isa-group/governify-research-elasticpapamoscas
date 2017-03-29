@@ -1,0 +1,81 @@
+Governed:
+    error:
+        avg: 0.015490716180371353
+        devtp: 0
+    cost:
+        avg: 0.25082999999999783
+        devtp: 0
+    ET32_t05:
+        availability:
+            avg: 99.98046979696906
+            devtp: 0
+    ET32_t04:
+        availability:
+            avg: 100
+            devtp: 0
+    ET32_t03:
+        availability:
+            avg: 100
+            devtp: 0
+    ET32_t02:
+        availability:
+            avg: 100
+            devtp: 0
+    ET32_t01:
+        availability:
+            avg: 99.95599326812187
+            devtp: 0
+PreProvisioned:
+    error:
+        avg: 0.016021220159151195
+        devtp: 0
+    cost:
+        avg: 0.2841299999999977
+        devtp: 0
+    ET32_t05:
+        availability:
+            avg: 71.71398875272317
+            devtp: 0
+    ET32_t04:
+        availability:
+            avg: 99.86052031239666
+            devtp: 0
+    ET32_t03:
+        availability:
+            avg: 81.55186827379015
+            devtp: 0
+    ET32_t02:
+        availability:
+            avg: 99.90303412885193
+            devtp: 0
+    ET32_t01:
+        availability:
+            avg: 98.05852905789824
+            devtp: 0
+UnGoverned:
+    error:
+        avg: 0.31345035479912503
+        devtp: 0
+    cost:
+        avg: 0.11693000000000198
+        devtp: 0
+    ET32_t05:
+        availability:
+            avg: 57.554594941803586
+            devtp: 0
+    ET32_t04:
+        availability:
+            avg: 99.79053803576599
+            devtp: 0
+    ET32_t03:
+        availability:
+            avg: 72.30881375384878
+            devtp: 0
+    ET32_t02:
+        availability:
+            avg: 99.90073259674634
+            devtp: 0
+    ET32_t01:
+        availability:
+            avg: 97.0886259375065
+            devtp: 0

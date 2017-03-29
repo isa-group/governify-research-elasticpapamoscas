@@ -1,0 +1,18 @@
+http://localhost:9001
+{ action: 'changeThreads' }
+{ action: 'stop' }
+{ totalcost: 0,
+  duration: 0,
+  charts: { threads: [], throughput: [], cost: [] } }
+The file was saved!
+{ action: 'load',
+  testname: 'T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760' }
+{ [Error: ENOENT: no such file or directory, open 'C:\Users\isa-tecnico\Google Drive\iCOMOT\usecases\validation09\tmp\T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760.json']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\isa-tecnico\\Google Drive\\iCOMOT\\usecases\\validation09\\tmp\\T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760.json' }
+{ action: 'stats',
+  testname: 'T00.01.01-1_8_1_8_1_8_1-120-PapamoscasElasticOnlyOneLevelPreProvisioned-760' }
+{ cost: null, throughput: null, thread: null }
+{ action: 'stopMonitor' }

@@ -1,0 +1,27 @@
+UnGoverned:
+    error:
+        avg: 0.016977320558464085
+        devtp: 0.0004762937964047708
+    cost:
+        avg: 0.14852333333333556
+        devtp: 0.0021137065916433002
+    ET47_t05:
+        availability:
+            avg: 99.9958376642657
+            devtp: 0.0031163586836965053
+    ET47_t04:
+        availability:
+            avg: 100
+            devtp: 0
+    ET47_t03:
+        availability:
+            avg: 99.96975875481594
+            devtp: 0.007634190099553587
+    ET47_t02:
+        availability:
+            avg: 100
+            devtp: 0
+    ET47_t01:
+        availability:
+            avg: 99.94317405844478
+            devtp: 0.04252887498170237
