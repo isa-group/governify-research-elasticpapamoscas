@@ -1,5 +1,20 @@
 #! /bin/bash
-java -jar papamoscas-proxy-sla.war  &> /tmp/proxy-sla.log &
+
+curl -sL https://deb.nodesource.com/setup_6.9 | sudo -E bash -
+sudo apt-get install -y nodejs nodejs-legacy
+sudo apt-get install -y build-essential
+
+git clone https://github.com/isa-group/governify-elasticity-test-sla-proxy.git
+
+cd governify-elasticity-test-sla-proxy
+
+npm install
+
+npm start &
+
+cd ..
+
+#java -jar papamoscas-proxy-sla.war  &> /tmp/proxy-sla.log &
 
 #used in unicast
 GANGLIA_IP=192.1.1.15
