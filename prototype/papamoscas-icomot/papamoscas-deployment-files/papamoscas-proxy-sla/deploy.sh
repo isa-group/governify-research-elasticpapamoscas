@@ -1,10 +1,10 @@
 #! /bin/bash
 
-curl -sL https://deb.nodesource.com/setup_6.9 | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs nodejs-legacy
 sudo apt-get install -y build-essential
 
-git clone https://github.com/isa-group/governify-elasticity-test-sla-proxy.git
+#git clone https://github.com/isa-group/governify-elasticity-test-sla-proxy.git
 
 cd governify-elasticity-test-sla-proxy
 
