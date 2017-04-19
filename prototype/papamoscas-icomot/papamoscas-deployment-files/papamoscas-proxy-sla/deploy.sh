@@ -6,7 +6,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y build-essential
 
-#git clone https://github.com/isa-group/governify-elasticity-test-sla-proxy.git
+git clone https://github.com/isa-group/governify-elasticity-test-sla-proxy.git
 
 cd governify-elasticity-test-sla-proxy
 
