@@ -1,7 +1,9 @@
 #! /bin/bash
+export NODE_ENV=production
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install -y nodejs nodejs-legacy
+sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y build-essential
 
 #git clone https://github.com/isa-group/governify-elasticity-test-sla-proxy.git
@@ -10,7 +12,7 @@ cd governify-elasticity-test-sla-proxy
 
 npm install
 
-npm start &
+npm start &> /tmp/proxy-sla.log &
 
 cd ..
 
